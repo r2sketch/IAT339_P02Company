@@ -1,0 +1,66 @@
+
+
+
+/*Css for checkout web-page*/
+.cContainer{
+ 
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 15px;
+ 
+ } 
+
+
+ .payContainer{
+
+  display:flex;
+
+  justify-content: center;
+  margin-right: 2em;
+  margin-bottom: 1em;
+
+
+ }
+
+ @media screen and (max-width: 50em){
+  .payContainer{
+  flex-direction:column;
+}
+ }
+ 
+
+
+
+
+.checkout1{
+  
+  padding:0.5rem;
+  background-color: #f2f2f2;
+
+}
+
+
+.checkout2{
+  
+  padding:0.5rem;
+  background-color: #f2f2f2;
+
+}
+
+
+.checkout3{
+  box-shadow: 0px 5px 10px;
+  padding:0.5rem;
+  background-color:#f2f2f2;
+  position:relative;
+  height:100%;
+
+
+}
+
+.checkout input{
+  position:absolute;
+  bottom:1em;
+}
+
