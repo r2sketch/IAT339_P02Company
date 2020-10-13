@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Tiffany Wedding Studio</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+
+    <header>
+      <h1>Tiffany Wedding Studio</h1>
+
+      <nav class="nav1">        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#brand">Brand Concept</a>
+        <a href="#design">Website Design Elements</a>
+      </nav>
+
+      <nav class="nav2">
+         <a href="productlist.html">Service Listing web-page</a>
+        <a href="checkout.html">Checkout web-page</a>
+        <a href="#citations">Citations</a>
+      </nav>
+   
+    </header>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link / Navigation link </h3>
+        
+        
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#"&gt;Tiffany Studio&lt;/a&gt;</code>
+        <code>&lt;nav&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/nav&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#">Tiffany Studio</a>
+        <nav><a href="#">Home</a></nav>
+        
+
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+        
+
+        <h3>Default Button</h3>
+        
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        
+        <h3>Submit/Reset Buttons</h3>
+        
+
+        <h4>Sample code:</h4>
+        <code>
+        &lt;input type = "Submit" value = "Submit"&gt;
+        &lt;input type = "Reset" value = "Reset"&gt;
+      </code>
+
+        <h4>Rendered element:</h4>
+        <input type = "Submit" value = "Submit">
+        <input type = "Reset" value = "Reset">
+
+
+      </section>
+
+
+      <section class="element">
+        
+        <h3>Text Input Field with Label</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+          &lt;label for ="textbox"&gt; Enter your input: &lt;/label&gt;
+          &lt;input type="text" id="textbox"&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <label for ="textbox"> Enter your input: </label>
+        <input type="text" id="textbox">
+        <!--// this code retrived from https://www.w3schools.com/tags/tag_input.asp-->
+      </section>
+
+
+      <section class="element">
+        
+        <h3>Radio Button with Label</h3>
+        
+        <h4>CSS selector:</h4>
+        <p>.Rcontainer</p>
+        <p>.click</p>
+        
+        <h4>Sample code:</h4>
+        <code>
+          &lt;label class="Rcontainer"&gt;Enter your Input
+  &lt;input type="radio"&gt;
+  &lt;span class="click"&gt;&lt;/span&gt;
+&lt;/label&gt;
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        
+
+      <label class="Rcontainer">Enter your Input
+  <input type="radio">
+  <span class="click"></span>
+</label>
+
+
+  <!--// this code retrived from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp-->
+        
+      </section>
+
+      </section>
+
+
+      <section class="element">
+        
+        <h3>Image as a Link</h3>
+        
+
+        <h4>CSS selector:</h4>
+        <p>.imgurl</p>
+
+        
+        <h4>Sample code:</h4>
+        <code>
+          &lt;a href ="#" class="imgurl"&gt;&lt;img src="img/Wedding1.jpg" alt="this should be an image" width="600"&gt;&lt;/a&gt;
+        </code>
+        <h4>Rendered element:</h4>
+
+        
+         <a href ="#" class="imgurl"><img src="img/Wedding1.jpg" alt="this should be an image" width="600"></a>
+        
+      </section>
+
+
+   
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        
+      
+        <h4>Sample code:</h4>
+        <code>&lt;h3&gt;Heading one&lt;/h3&gt;</code>
+        <code>&lt;h4&gt;Heading two&lt;/h4&gt;</code>
+        <code>&lt;h5&gt;Heading three&lt;/h5&gt;</code>
+        <code>&lt;h6&gt;Heading four&lt;/h6&gt;</code>
+        <h4>Rendered element:</h4>
+        <h3>Heading one</h3>
+        <h4>Heading two</h4>
+        <h5>Heading three</h5>
+        <h6>Heading four</h6>
+
+        <!-- Four levels of headings // -->
+        
+
+      </section>
+
+      <section class="element">
+        
+        <h3>Paragraphs</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+      This is a paragraph.This is a paragraph.&lt;/p&gt;
+        </code>
+        <h4>Rendered element:</h4>
+      
+        <p class="para">This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+      This is a paragraph.This is a paragraph.</p>
+       
+      </section>
+
+      <section class="element">
+        
+        <h3>Numbered Lists</h3>
+        
+        <h4>CSS selector:</h4>
+        <p>.list</p>
+        
+        <h4>Sample code:</h4>
+        <code>
+          &lt;ol&gt;
+         &lt;li&gt;Wedding Plan&lt;/li&gt;
+         &lt;li&gt;Wedding Decoration&lt;/li&gt;
+         &lt;li&gt;Wedding Photograph&lt;/li&gt;
+         &lt;/ol&gt;
+        </code>
+        <h4>Rendered element:</h4>
+         <ol class=list>
+         <li>Wedding Plan</li>
+         <li>Wedding Decoration</li>
+         <li>Wedding Photograph</li>
+         </ol>
+         <!-- Numbered List code retrievd from https://www.w3schools.com/html/html_lists_ordered.asp -->
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+           &lt;nav&gt;       
+        &lt;a href="#"&gt;Ideas for Wedding&lt;/a&gt;
+        &lt;a href="#"&gt;Press and Client List&lt;/a&gt;
+        &lt;a href="#"&gt;Testimonials&lt;/a&gt;
+        &lt;a href="#"&gt;Contact Us&lt;/a&gt;
+        &lt;a href="#"&gt;Pricing&lt;/a&gt;
+       
+      &lt;/nav&gt;
+        </code>
+        <h4>Rendered element:</h4>
+         <nav>        
+        <a href="#" class="button-nav">Ideas for Wedding</a>
+        <a href="#" class="button-nav">Press and Client List</a>
+        <a href="#" class="button-nav">Testimonials</a>
+        <a href="#" class="button-nav">Contact Us</a>
+        <a href="#" class="button-nav">Pricing</a>
+
+        
+      </nav>
+      </section>
+    </section>
+
+
+      <section class="element">
+       
+        <h3>Product/Service Listing</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+           &lt;div class="product_listing"&gt;
+          &lt;h3&gt;Wedding Plan 1&lt;/h3&gt;
+         
+           &lt;div&gt;&lt;img src="img/wedding3.jpg" alt="this should be an image" width="200"&gt;&lt;/div&gt;
+           
+           &lt;div&gt;$600&lt;/div&gt;
+           &lt;p&gt;This is the product description&lt;/p&gt;
+          
+
+           &lt;a href="#"&gt;Contact Us &lt;/a&gt;
+        </code>
+        <h4>Rendered element:</h4>
+         <div class="product_listing">
+          <h3>Wedding Plan 1</h3>
+          
+           <div><a href ="#" class="imgurl"><img src="img/Wedding3.jpeg" alt="this should be an image" width="200"></a></div>
+           
+           <div>$600</div>
+           <p>This is the product description</p>
+           
+           <a href="#" class="button-nav">Contact Us</a>
+
+          </div>
+
+     
+    </section>
+      
+      <section class="element">
+        
+        <h3>Payment Form</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+           &lt;div class="payment_form"&gt;
+          &lt;h3&gt;Payment&lt;/h3&gt;
+          &lt;p&gt;Choose your Payment Method&lt;/p&gt;
+
+          &lt;label class="Rcontainer"&gt;Credit Card/Debit Card
+  &lt;input type="radio"&gt;
+  &lt;span class="click"&gt;&lt;/span&gt;
+&lt;/label&gt;
+
+&lt;label class="Rcontainer"&gt;Paypal
+  &lt;input type="radio"&gt;
+  &lt;span class="click"&gt;&lt;/span&gt;
+&lt;/label&gt;
+            &lt;label for="uname"&gt;Name on Card&lt;/label&gt;
+            &lt;input type="text" id="uname" name="cardname" placeholder="Helena Wan"&gt;
+            &lt;label for="cardnumber"&gt;Credit card number&lt;/label&gt;
+            &lt;input type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444"&gt;
+            &lt;label for="expmonth"&gt;Exp Month&lt;/label&gt;
+            &lt;input type="text" id="expmonth" name="expmonth" placeholder="October"&gt;
+                &lt;label for="expyear"&gt;Exp Year&lt;/label&gt;
+                &lt;input type="text" id="expyear" name="expyear" placeholder="2021"&gt;
+                &lt;label for="cvv"&gt;CVV&lt;/label&gt;
+                &lt;input type="text" id="cvv" name="cvv" placeholder="555"&gt;
+                &lt;label for="zip"&gt;Zip Code&lt;/label&gt;
+                &lt;input type="zip" id="zip" name="zip" placeholder="V3J 0E5"&gt;       
+        &lt;label&gt;
+          
+  &lt;/div&gt;
+        </code>
+        <h4>Rendered element:</h4>
+         <div class="payment_form">
+          <h3>Payment</h3>
+
+          <p>Choose your Payment Method</p>
+
+          <label class="Rcontainer">Credit Card/Debit Card
+  <input type="radio">
+  <span class="click"></span>
+</label>
+
+<label class="Rcontainer">Paypal
+  <input type="radio">
+  <span class="click"></span>
+</label>
+
+            <label for="uname">Name on Card</label>
+            <input type="text" id="uname" name="cardname" placeholder="Helena Wan">
+            <label for="cardnumber">Credit card number</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="October">
+
+              
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2021">
+             
+             
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="555">
+             
+                <label for="text">Zip Code</label>
+                <input type="text" id="text" name="zip" placeholder="V3J 0E5">
+               
+        
+     
+ 
+  </div>
+
+           <!-- Code learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form-->
+
+      </section>
+    
+
+      <section class="element">
+        
+        <h3>Checkout Cart</h3>
+        
+        <h4>Sample code:</h4>
+        <code>
+          
+      &lt;div class="cart_checkout"&gt;
+      &lt;h3&gt;Cart&lt;/h3&gt;
+      
+      &lt;p&gt;&lt;a href="#"&gt;Wedding Plan 1&lt;/a&gt; &lt;span class="price"&gt;$600&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="#"&gt;Photograph&lt;/a&gt; &lt;span class="price"&gt;$200&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="#"&gt;Makeup &lt;/a&gt; &lt;span class="price"&gt;$150&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="#"&gt;Wedding Decoration&lt;/a&gt; &lt;span class="price"&gt;$500&lt;/span&gt;&lt;/p&gt;
+       
+      &lt;hr&gt;
+       
+      &lt;p&gt;Total &lt;span class="price" &gt;&lt;b&gt;$1450&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      
+      &lt;input type="submit" value="Submit your order" class="button-nav"&gt;
+    &lt;/div&gt;
+        </code>
+        <h4>Rendered element:</h4>
+
+        <div class="cart_checkout">
+      <h3>Cart</h3>
+        
+      <p><a href="#">Wedding Plan 1</a> <span class="price">$600</span></p>
+      <p><a href="#">Photograph</a> <span class="price">$200</span></p>
+      <p><a href="#">Makeup</a> <span class="price">$150</span></p>
+      <p><a href="#">Wedding Decoration</a> <span class="price">$500</span></p>
+      
+      <hr>
+      
+      <p>Total <span class="price" ><b>$1450</b></span></p>
+     
+      <input type="submit" value="Submit your order" class="button-nav">
+    </div>
+
+
+        <!-- Code learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form, if click on the product, it will take you to our wedding website-->
+
+
+      
+
+   
+  </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <section id="brand">
+
+<h2>Branding Ideas</h2>
+    <section class="element">
+      <h3> What does the company do, or offer? </h3>
+      <p> Our team decided to make a wedding website, which is a virtual wedding coordination and planning company, we offer wedding planner, wedding decoration, wedding makeup, wedding photographs, etc.
+      </p>
+
+      <h3> Who is the company to potential customers? (as a person)</h3>
+      <p>Newlyweds who about to get married</p>
+
+      <h3> Why might this company entice someone to purchase a product or service</h3>
+      <p>We will use very exquisite wedding site planning pictures to attract customers, let them know that this is a very experienced wedding planning company</p>
+      
+
+      <h3> The types of imagery (icons, photos, etc) and their intended applications </h3>
+     
+      <img src="img/HomePage.jpg" alt="this should be an image" width="400">
+      
+      <p>This is using as the Home page Background Image of our website</p>
+      
+      <img src="img/WeddingD.jpeg" alt="this should be an image" width="400">
+        
+       <p>This is using as the "Wedding Decoration" product of our website</p>
+          
+
+       <img src="img/WeddingM.jpg" alt="this should be an image" width="400">
+         
+       <p>This is using as the "Wedding Makeup" product of our website</p>
+   
+<img src="img/Wedding4.jpg" alt="this should be an image" width="400">
+   
+<p>This is using as the "Wedding Plan" product of our website</p>
+
+
+    </section>
+  </section>
+  <section id="design">
+    <h2>Design Elements</h2>
+
+    <section class="element">
+      <h3> Fonts </h3>
+      <p class="font1"> This is the font for headings 【Crimson Text】</p>
+      <p class="font2"> This is the font for body 【David Libre】 </p>
+
+    </section>
+
+
+<section class="element">
+      <h3> Color </h3>
+      <div class="colorp">
+  <div class="deepblue" style="background:#5A7190">
+  
+  <p class="ppp"><b>Header Color</b></p>
+  
+  
+  </div>
+  <div class="lightblue1"  style="background:#7E8FA7">
+    
+  <p><span class="ppp">Navigation Bar Color 1</span></p>
+
+  </div>
+</div>
+
+<div class="colorp">
+  <div class="lightblue2" style="background:#A6B4CE">
+    
+  <p class="ppp"><b>Navigation Bar Color 2 / Button Color</b></p>
+  
+  </div>
+  <div class="lightestblue"  style="background:#D0DEF2">
+    
+  <p class="ppp"><b>Background Color</b></p>
+  
+  
+
+  </div>
+</div>
+
+
+      
+    </section>
+
+</section>
+
+    <section id="citations">
+
+     
+        
+      <h2>Citations</h2>
+     
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Kosch, Sebastian. Principal design. 2007. <strong>Crimson Text [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Crimson+Text">https://fonts.google.com/specimen/Crimson+Text</a></li>
+        <li>Multiple Designers. Principal design. 2007. <strong>David Libre [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/David+Libre?sidebar.open=true&selection.family=David+Libre#standard-styles">https://fonts.google.com/specimen/David+Libre?sidebar.open=true&selection.family=David+Libre#standard-styles</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>html and CSS code learned from <a href="https://www.w3schools.com/"> https://www.w3schools.com/ </a></li>
+        <li>Wedding Images. Retrieved from <a href="https://www.google.com/search?q=wedding+event+planning&tbm=isch&ved=2ahUKEwjrt4m30v7rAhWxiJ4KHchoDY4Q2-cCegQIABAA&oq=wedding+event+planning&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIICAAQCBAeEBMyCAgAEAUQHhATMggIABAIEB4QEzoGCAAQBxAeOggIABAIEAcQHlCXRVinTmDTVGgAcAB4AIABTIgBmAOSAQE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=YepqX6uDL7GR-gTI0bXwCA&bih=821&biw=1440&rlz=1C5CHFA_enCA830CA830"> https://www.google.com/search?q=wedding+event+planning&tbm=isch&ved=2ahUKEwjrt4m30v7rAhWxiJ4KHchoDY4Q2-cCegQIABAA&oq=wedding+event+planning&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIECAAQEzIICAAQCBAeEBMyCAgAEAUQHhATMggIABAIEB4QEzoGCAAQBxAeOggIABAIEAcQHlCXRVinTmDTVGgAcAB4AIABTIgBmAOSAQE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=YepqX6uDL7GR-gTI0bXwCA&bih=821&biw=1440&rlz=1C5CHFA_enCA830CA830</a></li>
+        <li>Style the Label in CSS. Retrieved from <a href="https://stackoverflow.com/questions/4388102/can-you-style-an-active-form-inputs-label-with-just-css"> https://stackoverflow.com/questions/4388102/can-you-style-an-active-form-inputs-label-with-just-cssa</a></li>
+
+          <li>The Botton type attribute code Retrieved from <a href="https://www.w3schools.com/tags/tag_input.asp"> https://www.w3schools.com/tags/tag_input.asp</a></li>
+
+            <li>The Radio label elements code Retrieved from <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label"> https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label</a></li>
+<li>The Checkout and payment Form code Retrieved from <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form"> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form</a></li>
+
+<li>The Numbered List code Retrieved from <a href="https://www.w3schools.com/html/html_lists_ordered.asp
+"> https://www.w3schools.com/html/html_lists_ordered.asp
+</a></li>
+
+<li>Home page background image <a href="https://www.rockmywedding.co.uk/louise-paul/"> https://www.rockmywedding.co.uk/louise-paul/</a></li>
+
+        <li>Style the Radio Button code retrived from <a href="https://www.w3schools.com/howto/howto_css_custom_checkbox.asp">https://www.w3schools.com/howto/howto_css_custom_checkbox.asp</a></li>
+
+        <li>Wedding Planner Image Retrieved from <a href="https://junebugweddings.com/wedding-photo-gallery/50633/Elegant-Outdoor-Reception-Decor-with-White-Linen-and-Candlesticks">https://junebugweddings.com/wedding-photo-gallery/50633/Elegant-Outdoor-Reception-Decor-with-White-Linen-and-Candlesticks</a></li>
+
+<li>Wedding Cake Image Retrieved from <a href="https://junebugweddings.com/wedding-photo-gallery/50625/Elegant-Garden-Inspired-Dessert-Display-with-Pale-Pink-and-Greenery-Color-Palette"> https://junebugweddings.com/wedding-photo-gallery/50625/Elegant-Garden-Inspired-Dessert-Display-with-Pale-Pink-and-Greenery-Color-Palette</a></li>
+
+<li>Wedding Photograph Image Retrieved from <a href="https://junebugweddings.com/wedding-photo-gallery/50593/emotional-waterfall-elopement-style-and-photography-inspiration"> https://junebugweddings.com/wedding-photo-gallery/50593/emotional-waterfall-elopement-style-and-photography-inspiration</a></li>
+
+
+
+
+
+
+
+      </ul>
+
+    
+  </section>
+
+
+
+  </body>
+</html>
