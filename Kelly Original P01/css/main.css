@@ -1,0 +1,191 @@
+/* includes padding and border in all elements total width and height */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cambria", serif;
+  padding: 2rem;
+  color: #525252;
+}
+
+/* style guide layout setup */
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-size: 2em;
+  color: #91783f;
+}
+
+h2 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+h4{
+  font-style: italic;
+}
+
+a {
+  color: #9e8242;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #737373;
+}
+
+/* p {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 70%;
+} */
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+input {
+  padding: 0.7em;
+}
+
+label {
+  font-family: "Segoe UI", sans-serif;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.cart {
+  width: 30%;
+}
+
+.checkout{
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+/* navigation */
+.navbar{
+  text-align: center;
+  padding: 30px;
+}
+
+.nav-link {
+  font-family: "Century Gothic", "Yu Gothic Light","Segoe UI Light",sans-serif;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 0.6rem;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+
+/* product listing image and overlay */
+/* retrieved from https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+.prodcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.prodimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.prodoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #baccc1;
+}
+
+.prodcontainer:hover .prodoverlay {
+  opacity: 1;
+}
+
+.prodcontainer h3 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
+.prodcontainer ul {
+  /* text-align:left;
+  padding-left: 3.5em; */
+}
+
+.prodtext {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* header */
+.header{
+  text-align: center;
+  padding: 10px;
+}
+
+/* title */
+.title{
+  text-align: center;
+  padding: 10px;
+}
+
+/* gallery and checkout grid layout */
+/* retrieved from https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* three equal columns */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:100%;
+}
+
+/* media query, changes the layout to 2 columns instead of three */
+@media (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* media query, one column */
+@media (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

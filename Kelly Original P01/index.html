@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="utf-8">
+    <title>339 Wedding Company</title>
+    <link href="css/main.css" rel="stylesheet">
+    <!-- External Stylesheet for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>P01 - Style Guide</h1>
+      <p>339 Wedding Company style guide.</p>
+      <nav>
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#product_listing">Product Listing Template</a>
+        <a href="#checkout">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+      <br>
+      <nav>
+        <a href="product.html">Products Page</a>
+        <a href="checkout.html">Checkout Page</a>
+      </nav>
+</header>
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <p>This is an example of an in-text link, click <a href="http://www.google.com">here</a> to go to Google. </p>
+        <h4>CSS selector:</h4>
+        <p>a:hover</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#"&gt;Text&lt;/a&gt;</code>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="element">
+        <h3>Navigation Link</h3>
+        <h4>CSS selector:</h4>
+        <p>.nav-link</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="nav-link"&gt;NAV LINK&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <a class="nav-link" href="#">NAV LINK</a>
+      </section>
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <h4>Sample code:</h4>
+        <code>
+          &lt;input type="submit" value="Submit"&gt; <br>
+          &lt;input type="reset" value="Reset"&gt; <br>
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+          <label>Label</label><br>
+          <input type="text" id="label" name="label" value=""><br><br>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;label &gt;Label&lt;/label&gt; <br>
+          &lt;input type="text" id="label" name="label" value="#"&gt; <br>
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+          <input type="radio" id="radiob" name="radiob" value="radiob1">
+          <label for="radiob">Radio Button</label><br>
+        <h4>Sample code:</h4>
+        <code>
+          <!-- &lt;form action ="#"&gt; <br> -->
+          &lt;input type="radio" id="radiob" name="radiob" value="radiob1"&gt; <br>
+          &lt;label for="radiob">Radio Button&lt;/label&gt; <br>
+          <!-- &lt;/form&gt; -->
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <a href ="index.html"><img src = "images/logo.png" alt = "logo"></a>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;a href ="#"&gt;&lt;img src = "image.png"&gt;&lt;/a&gt;<br>
+        </code>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h4>Sample code:</h4>
+          <code>
+            &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+            &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+            &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+            &lt;h3&gt;Heading 4&lt;/h4&gt;<br>
+          </code>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in massa nec ex pulvinar malesuada et non sapien. Sed elit mauris, fringilla sit amet ipsum sit amet, finibus imperdiet dui. Praesent malesuada, risus quis blandit placerat, ante ipsum bibendum dui, eu finibus justo purus vel lectus. Duis sed elit leo. Morbi et aliquet enim. Donec nisl ante, volutpat nec magna sed, congue facilisis nunc. Duis condimentum lacus a justo consequat venenatis. Cras enim lectus, pellentesque vel turpis ac, iaculis mollis leo. Pellentesque vel libero venenatis, aliquam lectus non, posuere ligula. Vestibulum aliquam iaculis arcu, sed convallis enim blandit eget. Morbi dui libero, ultricies sit amet fringilla quis, tincidunt eu metus. Integer scelerisque ligula in magna pharetra laoreet.</p>
+        <p>Morbi elit ipsum, elementum in erat eget, luctus hendrerit mauris. Ut cursus eleifend lectus nec sagittis. Quisque mattis est ut sem congue, quis semper leo ornare. Cras bibendum ipsum nec neque aliquam pharetra. Integer a massa eros. Aliquam erat volutpat. Phasellus vel sagittis eros, eget vestibulum nisi. Donec bibendum id erat ac faucibus. Maecenas posuere quam a dictum pharetra. Mauris tincidunt quis enim ut tincidunt.</p>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;Paragraph content here&lt;/p&gt;
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;ol&gt;<br>
+          &lt;li&gt;Item 1&lt;/li&gt; <br>
+          &lt;li&gt;Item 2&lt;/li&gt; <br>
+          &lt;li&gt;Item 3&lt;/li&gt; <br>
+          &lt;/ol&gt;
+        </code>
+      </section>
+
+      <section class="element">
+        <h3>Unordered Lists</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;ul&gt;<br>
+          &lt;li&gt;Item 1&lt;/li&gt; <br>
+          &lt;li&gt;Item 2&lt;/li&gt; <br>
+          &lt;li&gt;Item 3&lt;/li&gt; <br>
+          &lt;/ul&gt;
+        </code>
+      </section>
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>
+          <a class="nav-link" href="#">HOME</a>
+          <a class="nav-link" href="#">SERVICES</a>
+          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-link" href="#">CLIENTS</a>
+          <a class="nav-link" href="#">CONTACT</a>
+        </nav>
+        <h4>CSS selector:</h4>
+        <p>.nav-link</p>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;nav&gt;<br>
+          &lt;a class="nav-link" href="#"&gt;HOME&lt;/a&gt; <br>
+          &lt;a class="nav-link" href="#"&gt;OUR WORK&lt;/a&gt; <br>
+          &lt;a class="nav-link" href="#"&gt;ABOUT&lt;/a&gt; <br>
+          &lt;a class="nav-link" href="#"&gt;CLIENTS&lt;/a&gt; <br>
+          &lt;a class="nav-link" href="#"&gt;CONTACT&lt;/a&gt; <br>
+          &lt;/nav&gt;
+        </code>
+      </section>
+
+      <section class="element" id="product_listing">
+        <h3>Product/Service Listing</h3>
+
+        <section class="product_listing">
+        <div class="prodcontainer" style ="width:25%">
+          <img src="images/weddingphoto1.jpg" alt="image" class="prodimage">
+          <div class="prodoverlay">
+            <div class="prodtext">
+              <h3> Wedding Makeup & Hair</h3>
+              <!-- <h4>Studio Makeup Pricing</h4> -->
+              <!-- <ul>
+                <li>Bridal $150</li>
+                <li>Bridesmaid $95</li>
+                <li>Mother $85</li>
+              </ul>
+
+              <h4>Studio Hair Pricing</h4>
+              <ul>
+                <li>Bridal $150+</li>
+                <li>Bridesmaid $95+</li>
+                <li>Mother $85+</li>
+              </ul> -->
+
+              <p>We provide a professional full hair and makeup service team focused on making the most of your special day! Whether you’d prefer to come in studio or have our mobile services we are here to make you shine! <br> <br> <a href="#">Learn more here.</a></p>
+            </div></div></div>
+
+        <h4>CSS selector:</h4>
+        <p>.container </p>
+
+        <h4>Sample code:</h4>
+        <code>
+        &lt;section class="product_listing"> <br>
+        &lt;div class="container"> <br>
+        &lt;img src="weddingphoto1.jpg" alt="image" class="image"> <br>
+        &lt;div class="overlay"> <br>
+        &lt;div class="text"> <br>
+        &lt;h3> Wedding Makeup & Hair  &lt;/h3> <br>
+
+          &lt;p>We provide a professional full hair and makeup service team focused on making the most of your special day! Whether you’d prefer to come in studio or have our mobile services we are here to make you shine!   &lt;a href="#">Book an appointment today!&lt;/a>&lt;/p><br>
+          &lt;section>
+
+        </code> <br>
+
+      </section>
+
+      <section class="element" id="checkout">
+        <h3>Payment Form</h3>
+    <section class="payment_form">
+      <form action="#">
+            <h3>Billing Address</h3>
+            <label for="fname"> Full Name</label> <br>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe"> <br><br>
+            <label for="email"> Email</label> <br>
+            <input type="text" id="email" name="email" placeholder="john@example.com"> <br><br>
+            <label for="adr"> Address</label> <br>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"> <br><br>
+            <label for="city">City</label> <br>
+            <input type="text" id="city" name="city" placeholder="Vancouver"> <br><br>
+            <label>Province</label> <br>
+            <input type="text" id="province" name="province" placeholder="BC"> <br><br>
+            <label>Postal Code</label> <br>
+            <input type="text" id="postal" name="postal" placeholder="V5B4M1"> <br><br>
+
+            <h3>Payment Info</h3>
+            <label for="fname"> Name on Card</label> <br>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe"> <br><br>
+            <label for="ccnum">Credit Card Number</label><br>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"> <br><br>
+            <label for="expmonth">Expiration Month</label><br>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September"> <br><br>
+            <label for="expyear">Expiration Year</label><br>
+            <input type="text" id="expyear" name="expyear" placeholder="2018"> <br><br>
+            <label for="cvv">CVV</label><br>
+            <input type="text" id="cvv" name="cvv" placeholder="352"> <br><br>
+
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label> <br> <br>
+            <input type="submit" value="Continue to Checkout" class="btn">
+
+          </form>
+      </section>
+
+      <h4>Sample code:</h4>
+      <code>
+        &lt;section class="payment_form"> <br>
+          &lt;form action="#"> <br>
+        &lt;h3>Billing Address&lt;/h3> <br>
+        &lt;label for="fname"> Full Name&lt;/label> <br>
+        &lt;input type="text" id="fname" name="firstname" placeholder="John M. Doe"> &lt;br><br>
+        &lt;label for="email"> Email&lt;/label> &lt;br> <br>
+        &lt;input type="text" id="email" name="email" placeholder="john@example.com"> &lt;br><br>
+        . . . <br> <br>
+
+        &lt;h3>Payment Info&lt;/h3> <br>
+        &lt;label for="fname"> Name on Card&lt;/label> <br>
+        &lt;input type="text" id="cname" name="cardname" placeholder="John More Doe"> &lt;br><br>
+        . . . <br> <br>
+
+        &lt;label>
+          &lt;input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        &lt;/label> &lt;br> <br>
+        &lt;input type="submit" value="Continue to Checkout" class="btn"> <br>
+        &lt;/form> <br>
+      &lt;/section>
+      </code> <br>
+
+
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <section class="cart">
+          <h3>Cart</h3>
+          <p><a href="#">Studio Bridal Makeup</a> <span class="price">$150</span></p>
+          <p><a href="#">Studio Bridesmaid Makeup</a> <span class="price">$95</span></p>
+          <p><a href="#">Studio Bridal Hairstyling</a> <span class="price">$155</span></p>
+          <p><a href="#">Studio Bridesmaid Hairstyling</a> <span class="price">$100</span></p>
+          <hr>
+          <p>Total <span class="price"><b>$500</b></span></p>
+        </section>
+
+        <h4>Sample code:</h4>
+        <code>
+            &lt;section class="cart"> <br>
+              &lt;h3>Cart  &lt;/h3> <br>
+              &lt;p>  &lt;a href="#">Studio Bridal Makeup&lt;/a>   &lt;span class="price">$150  &lt;/span>  &lt;/p> <br>
+              &lt;p>  &lt;a href="#">Studio Bridesmaid Makeup&lt;/a>   &lt;span class="price">$95  &lt;/span>  &lt;/p> <br>
+              &lt;p>  &lt;a href="#">Studio Bridal Hairstyling  &lt;/a>   &lt;span class="price">$155  &lt;/span>  &lt;/p> <br>
+              &lt;p>  &lt;a href="#">Studio Bridesmaid Hairstyling&lt;/a>   &lt;span class="price">$100  &lt;/span>  &lt;/p> <br>
+              &lt;hr> <br>
+              &lt;p>Total   &lt;span class="price">  &lt;b>$500  &lt;/b>  &lt;/span>  &lt;/p> <br>
+        &lt;/section>
+        </code>
+      </section>
+
+    </section>
+
+    <section class="element">
+      <h3>Font Combination Test</h3>
+      <h1> Heading 1 </h1>
+      <nav>
+        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link" href="#">OUR WORK</a>
+        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="#">CLIENTS</a>
+        <a class="nav-link" href="#">CONTACT</a>
+      </nav>
+      <h2> Heading 2 </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor elit non nunc cursus volutpat. Cras id pellentesque libero. Nulla vitae nisl dapibus, fermentum sapien eget, fermentum orci. Ut molestie arcu at euismod efficitur. Etiam id lobortis tortor, vitae tempus ligula. Proin semper pharetra tortor in cursus. Sed euismod, dui suscipit consectetur malesuada, odio felis pellentesque eros, a tincidunt quam neque vitae urna. </p>
+      <p> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam a lectus ac nibh condimentum efficitur et a neque. Quisque malesuada lacus sagittis, porta nunc ut, pharetra leo. Sed venenatis est et ligula pretium, in dapibus purus elementum. In gravida magna a tristique interdum. Ut odio risus, blandit sed ultricies et, viverra id eros. Proin et rhoncus risus. Ut sed tellus mollis, porttitor erat id, commodo magna. Morbi mollis augue quis ipsum interdum egestas. Curabitur vestibulum tortor et ex laoreet maximus. Phasellus semper enim tortor, nec imperdiet sapien volutpat eget.</p>
+      </section>
+</section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+      <section class="element"  id="branding_ideas">
+        <h2>Basic Branding Ideas</h2>
+      <p>
+        339 Wedding Company (name tenative) is a compact wedding company that offers multitude of services to help make your special day perfect. We offer a range of services including wedding day photography, videography, engagement photography, as well as wedding hair and make up services from experienced professionals. A wedding day is such a fast pace and precious day where you don’t want anything missed. We want to ease your worries, with the range of our professionals, no matter the location or lighting, we can assure you that we can confidently capture the moment.
+      </p>
+      </section>
+
+      <h2>Brand Components</h2>
+
+      <section class="element">
+        <h3>Fonts</h3>
+        <img src="images/fonts.png" alt = "font">
+        <h3>Colour Palettes</h3>
+        <img src="images/colours.png" alt = "colors">
+
+        <h3>Art Direction</h3>
+        <img src="images/weddingphoto2.jpg" alt="Example" style ="width:20%">
+        <img src="images/weddingphoto3.jpg" alt="Example" style ="width:20%">
+        <img src="images/weddingphoto8.jpg" alt="Example" style ="width:20%">
+        <br>
+        <img src="images/weddingphoto4.jpg" alt="Example" style ="width:20%">
+        <img src="images/weddingphoto5.jpg" alt="Example" style ="width:20%">
+        <img src="images/weddingphoto6.jpg" alt="Example" style ="width:20%">
+        <img src="images/weddingphoto7.jpg" alt="Example" style ="width:20%">
+        <br>
+
+        <h3>Icons</h3>
+    <p>Icons for checkout page</p>
+     <i class="fa fa-user"></i>
+     <i class="fa fa-envelope"></i>
+     <i class="fa fa-address-card-o"></i>
+     <i class="fa fa-shopping-cart"></i>
+     <p>Using icons from <a href="https://fontawesome.com/icons?d=gallery">Font Awesome</a></p>
+
+     <h4>Sample code:</h4>
+     <code>
+         &lt;i class="fa fa-user"> &lt;/i>
+     </code>
+    </section>
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+      <ul>
+        <li>Font Awesome. n.d. <strong>Icons [Icons]</strong>. Retrieved from <a href="https://fontawesome.com/icons?d=gallery">https://fontawesome.com/icons?d=gallery</a>.</li>
+        <li>Kristy & Ken. Photographer. n.d. <strong>Weddings [Photograph]</strong>. Retrieved from <a href="https://blushweddingphotography.org/wedding-photos">https://blushweddingphotography.org/wedding-photos</a>.</li>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Sørensen, Claus. Designer. 2017. <strong>Playfair Display [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Playfair+Display#standard-styles">https://fonts.google.com/specimen/Playfair+Display#standard-styles</a></li>
+        <li>W3Schools. n.d. <strong>CSS Flex Responsive
+ [CSS Code]</strong>. Retrieved from <a href="https://www.w3schools.com/css/css3_flexbox_responsive.asp">https://www.w3schools.com/css/css3_flexbox_responsive.asp</a>.</li>
+        <li>W3Schools. n.d. <strong>How TO - Checkout Form [HTML Code]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/howto_css_checkout_form.asp">https://www.w3schools.com/howto/howto_css_checkout_form.asp</a>.</li>
+        <li>W3Schools. n.d. <strong>How TO - Image Hover Overlay [CSS Code]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">https://www.w3schools.com/howto/howto_css_image_overlay.asp</a>.</li>
+      </ul>
+    </section>
+
+  </body>
+</html>
