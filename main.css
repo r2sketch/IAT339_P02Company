@@ -1,0 +1,388 @@
+/*
+GlobL style
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+}
+
+.block {
+  display: block;
+}
+
+.DB7093 {
+  padding: 20px;
+  display: block;
+  background-color: #DB7093;
+}
+
+.FAF0E6 {
+  padding: 20px;
+  display: block;
+  background-color: #FAF0E6;
+}
+
+.FFC0CB {
+  padding: 20px;
+  display: block;
+  background-color: #FFC0CB;
+}
+
+.FFA07A {
+  padding: 20px;
+  display: block;
+  background-color: #FFA07A;
+}
+
+.FFD700 {
+  padding: 20px;
+  display: block;
+  background-color: #FFD700;
+}
+
+.belle {
+  font-family: 'Bellefair', serif;
+  font-size: 50px;
+}
+
+.barlow {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 50px;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+.didact {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 50px;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+/*Imagary and branding font Combination*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  text-align: left;
+}
+
+.row {
+  margin: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* header design */
+header {
+  margin-top: 0;
+  background-color: white;
+  color: white;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* icon design */
+.centerr {
+  display: flex;
+  flex-grow: 1;
+  margin: auto;
+  width: 40%;
+  margin-top: 55px;
+}
+
+.fa {
+  flex-grow: 1;
+  z-index: 1;
+  text-align: center;
+  font-size: 25px;
+  width: 50px;
+  text-decoration: none;
+  color: lightgrey;
+  margin: 10px;
+}
+
+.fa:hover {
+  color: #FFA07A;
+  transition: .7s;
+}
+
+/* background design&color for different section */
+.Interactive {
+  padding: 2rem;
+  background-color: #FAF0E6;
+}
+
+.text_elements {
+  padding: 2rem;
+  background-color: white;
+}
+
+.combine {
+  padding: 2rem;
+  background-color: #FAF0E6;
+}
+
+#citations {
+  padding: 2rem;
+}
+
+/* in-section divider  */
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+/* text elements */
+h1, h2, h3, h4, h5, p {
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: 'Bellefair', cursive;
+  color: #DB7093;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: lighter;
+  color: #FFC0CB;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFA07A;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: #FF7F50;
+  margin-top: 0;
+  padding-right: 0;
+}
+
+p {
+  margin-top: 0;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+ol {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+}
+
+/* Styling for intext link */
+/* Styling for the navigation link */
+.navlink {
+  display: flex;
+  border-top: 2px solid #FFA500;
+  border-bottom: 2px solid #FFA500;
+  overflow: hidden;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-bottom: 0;
+}
+
+.navlink a {
+  float: left;
+  display: flex;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 0;
+}
+
+.navlink a:hover {
+  color: lightgrey;
+}
+
+/* submit/reset button */
+button {
+  background-color: transparent;
+  border: 2px solid #FFA07A;
+  padding: 5px 20px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #FFA07A;
+  transition-duration: .3s;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styling for input text field*/
+input, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-width: thin;
+}
+
+input:hover, textarea:hover {
+  border-color: #FFA07A;
+}
+
+input:focus, textarea:focus {
+  background-color: white;
+  border-width: thin;
+}
+
+.input {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+/* Styling for radio button*/
+.radio_button {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio_button input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 0;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a background color */
+.radio_button:hover input~.checkmark {
+  background-color: #FFD700;
+}
+
+/* When the radio button is checked, add a background */
+.radio_button input:checked~.checkmark {
+  background-color: #FFD700;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio_button input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio_button .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/*Css for checkout web-page*/
+.cContainer {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+
+.payContainer {
+  display: flex;
+  justify-content: center;
+  margin-right: 4em;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 50em) {
+  .payContainer {
+    flex-direction: column;
+  }
+}
+
+.checkout3, .checkout2, .checkout1 {
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 10px 10px 15px pink;
+  padding: 1.5em;
+  background-color: white;
+  padding-bottom: 3.5em;
+  border-radius: 5px;
+}
+
+hr {
+  border: 2px solid #DB7093;
+  margin: 1em;
+}
+
+span.price {
+  float: right;
+  padding-right: 2em;
+}
+
+.pay {
+  float: right;
+  margin-top: 0;
+}
+
+/* img link  */
+/*
+  COMBINED ELEMENTS -------------------
+*/
+/*
+servise list
+*/
+/*
+checkout cart
+*/
