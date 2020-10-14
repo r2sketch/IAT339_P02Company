@@ -6,6 +6,14 @@ GlobL style
 *:after {
   box-sizing: border-box;
 }
+a {
+  color: #9e8242;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4a4a4a;
+}
 
 body {
   margin: 0;
@@ -375,14 +383,3 @@ span.price {
   float: right;
   margin-top: 0;
 }
-
-/* img link  */
-/*
-  COMBINED ELEMENTS -------------------
-*/
-/*
-servise list
-*/
-/*
-checkout cart
-*/
