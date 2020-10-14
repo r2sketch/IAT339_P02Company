@@ -13,6 +13,8 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/hamburger.css" rel="stylesheet">
   <link href="css/shoppingcart.css" rel="stylesheet">
+  <link href="css/service.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -121,13 +123,12 @@
   <section class="Interactive" id="interactive_elements">
     <section class="element">
       <h2>In-text link</h2>
-
+      <p>This is an example of an in-text link, click <a href="http://www.google.com">here</a> to go to Google. </p>
       <!-- //kelly to add -->
-
       <h3>CSS selector:</h3>
-      <p>.location</p>
+      <p>a:hover</p>
       <h3>Sample code:</h3>
-
+      <code>&lt;a href="#"&gt;Text&lt;/a&gt;</code>
       <code>
 
       </code>
@@ -269,14 +270,25 @@
 
     <section class="element">
       <h2>Image as a Link</h2>
-      <!-- kelly to add // -->
+      <div class="prodcontainer" style ="width:25%" id = "block1">
+        <img src="img/weddingphoto6.jpg" alt="image" class="prodimage">
+        <div class="prodoverlay">
+          <div class="prodtext">
+            <br><br>
+            <a href="#">Discover more details.</a></p>
+          </div></div></div> <br>
 
       <h3>CSS selector:</h3>
-      <p>.imghover</p>
+      <p>.prodcontainer</p>
+
       <h3>Sample code:</h3>
-
       <code>
-
+        &lt;div class="prodcontainer" style ="width:25%" id = "block1"> <br>
+        &lt;img src="img/weddingphoto6.jpg" alt="image" class="prodimage"> <br>
+          &lt;div class="prodoverlay"> <br>
+            &lt;div class="prodtext"> <br>
+              &lt;br>&lt;br> <br>
+              &lt;a href="#">Discover more details.&lt;/a>&lt;/p> <br>
       </code>
       <!-- kelly's end // -->
     </section>
@@ -394,20 +406,30 @@
 
     <section class="element">
       <h2>Product/Service Listing</h2>
-      <!-- kelly to add -->
-
+      <div class="prodcontainer" style ="width:25%" id = "block1">
+        <img src="img/weddingphoto6.jpg" alt="image" class="prodimage">
+        <div class="prodoverlay">
+          <div class="prodtext">
+            <h2> Wedding Makeup & Hair</h2>
+            <p>We provide a professional full hair and makeup service team focused on making the most of your special day! Whether you’d prefer to come in our studio or have our mobile services we are here to make you shine!
+            <br><br>
+            <a href="#">Discover more details.</a></p>
+          </div></div></div> <br>
 
       <h3>CSS selector:</h3>
+      <p>.prodcontainer</p>
 
       <h3>Sample code:</h3>
-
-
       <code>
-
-
-
+        &lt;div class="prodcontainer" style ="width:25%" id = "block1"> <br>
+        &lt;img src="img/weddingphoto6.jpg" alt="image" class="prodimage"> <br>
+          &lt;div class="prodoverlay"> <br>
+            &lt;div class="prodtext"> <br>
+              &lt;h2> Wedding Makeup & Hair&lt;/h2> <br>
+              &lt;p>We provide a professional full hair and makeup service team focused on making the most of your special day! Whether you’d prefer to come in our studio or have our mobile services we are here to make you shine! <br>
+              &lt;br>&lt;br> <br>
+              &lt;a href="#">Discover more details.&lt;/a>&lt;/p> <br>
       </code>
-      <!-- kelly's end -->
 
     </section>
 
