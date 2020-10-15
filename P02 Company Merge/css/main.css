@@ -6,10 +6,10 @@ GlobL style
 *:after {
   box-sizing: border-box;
 }
+
 a {
   color: #9e8242;
   text-decoration: none;
-
 }
 
 a:hover {
@@ -384,4 +384,56 @@ span.price {
 .pay {
   float: right;
   margin-top: 0;
+}
+
+.prodimage {
+  width: 50%;
+}
+
+.prodcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.prodimage {
+  display: inline-block;
+}
+
+.prodoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f0d1c7;
+}
+
+.prodcontainer:hover .prodoverlay {
+  opacity: .99;
+  cursor: pointer;
+}
+
+.prodcontainer h2 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  color: #c29d59;
+}
+
+.prodtext {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.detail {
+  display: block;
+  padding-top: 1em;
 }
