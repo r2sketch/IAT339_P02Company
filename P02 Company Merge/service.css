@@ -27,8 +27,6 @@
 
 .prodimage {
   display: block;
-  width: 100%;
-  height: auto;
 }
 
 .prodoverlay {
@@ -45,7 +43,7 @@
 }
 
 .prodcontainer:hover .prodoverlay {
-  opacity: 1;
+  opacity: .99;
   cursor: pointer;
 }
 
@@ -54,14 +52,9 @@
   color: #c29d59;
 }
 
-.prodcontainer ul {
-  /* text-align:left;
-  padding-left: 3.5em; */
-}
-
 .prodtext {
   color: white;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -70,20 +63,32 @@
   text-align: center;
 }
 
+.detail {
+  display: block;
+  padding-top: 1em;
+}
+
+p, h2 {
+  margin: 0;
+  padding: .5em;
+}
+
 /* gallery layout */
 /* retrieved from https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 2em;
+  padding: 8em;
 }
-.background{
+
+.background {
   background-color: #FAF0E6;
   display: block;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
 }
+
 /* three equal columns */
 .column {
   flex: 33%;
@@ -103,12 +108,29 @@
     flex: 50%;
     max-width: 50%;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+    padding-top: 0;
+  }
 }
 
 /* media query, one column */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .column {
     flex: 100%;
     max-width: 100%;
+    padding: 0;
   }
 }
