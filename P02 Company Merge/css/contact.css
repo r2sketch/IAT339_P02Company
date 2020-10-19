@@ -1,3 +1,5 @@
+
+
 .parallax img, .parallax {
   float: left;
   width: 100%;
@@ -69,3 +71,18 @@ input:hover {
   margin-bottom: 2em;
   font-family: 'Roboto';
 }
+
+@media only screen and (max-width: 660em){
+  .logoimage{
+    width:80%;
+  }
+}
+
+
+@media only screen and (max-width: 440em){
+  .logoimage{
+    width:50%;
+  }
+}
+
+

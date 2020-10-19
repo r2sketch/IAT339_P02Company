@@ -437,3 +437,17 @@ span.price {
   display: block;
   padding-top: 1em;
 }
+
+
+@media only screen and (max-width: 660em){
+  .logoimage{
+    width:80%;
+  }
+}
+
+
+@media only screen and (max-width: 440em){
+  .logoimage{
+    width:50%;
+  }
+}
