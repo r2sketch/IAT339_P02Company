@@ -1,0 +1,22 @@
+.logoimage{
+  width:100%;
+}
+
+.fixcart {
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  right: 0px;
+}
+
+.fa-shopping-cart {
+  color: #FFA07A;
+  font-size: 45px;
+  width: 90px;
+  height: 90px;
+}
+
+.fa-shopping-cart:hover {
+  color: pink;
+  transition: .5s;
+}

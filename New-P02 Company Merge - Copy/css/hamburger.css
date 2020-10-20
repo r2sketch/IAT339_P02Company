@@ -1,0 +1,160 @@
+/*
+ transform-origin Property learn from W3C
+ */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+#menuToggle {
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+#menuToggle input {
+  float: left;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 45px;
+  left: 45px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: flex;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #FFA07A;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  /* cubic-bezier from W3C */
+  /* transition from W3C */
+
+  /*
+   transform-origin Property learn from W3C
+   */
+   /*nth-last-child() Selector from w3c*/
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+/*nth-last-child() Selector from w3c*/
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked~span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/* hide the middle one.
+ */
+#menuToggle input:checked~span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ *   the last one  go the other direction
+ */
+#menuToggle input:checked~span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 104vh;
+  min-width: 100vw;
+  flex-basis: 100%;
+  align-content: space-between;
+  background-color: rgb(209, 169, 148);
+  padding: 1rem;
+  margin: -100px 0 0 -50px;
+  padding-top: 125px;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  /* cubic-bezier from W3C */
+  transition: transform 0.9s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+/*
+ * And slide it in from the left
+ */
+#menuToggle input:checked~ul {
+  transform: none;
+}
+
+.homenav a {
+  font-family: 'Barlow Condensed', sans-serif;
+  display: block;
+  color: white;
+  font-size: 7vw;
+  font-weight: 350;
+  letter-spacing: 1.5rem;
+  line-height: 0.9em;
+  animation: .3s;
+  text-decoration: none;
+  transition: ease-in-out .7s;
+}
+
+.homenav ul {
+  list-style-type: none;
+}
+
+.homenav li {
+  height: 12vh;
+  margin: 30px;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+sup {
+  font-size: .5em;
+  letter-spacing: 0.5em;
+}
+
+.homenav a:hover {
+  color: #333;
+  line-height: .3em;
+}
+
+
