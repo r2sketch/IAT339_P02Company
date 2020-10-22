@@ -7,6 +7,30 @@ GlobL style
   box-sizing: border-box;
 }
 
+/* header image */
+.parallax img, .parallax {
+  float: left;
+  width: 100%;
+  height: 30vh;
+  padding-top: 20px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.centered {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(0%, -50%);
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+}
+
+
 a {
   color: #9e8242;
   text-decoration: none;
