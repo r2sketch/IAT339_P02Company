@@ -7,12 +7,19 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: #FAF0E6;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   padding-top: 0;
+}
+
+.wrapper {
+  background-color: #FAF0E6;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .shopping-cart {
@@ -168,5 +175,24 @@ button:hover {
     width: 100%;
     text-align: center;
     margin: 6px 0;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  header {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 660em) {
+  .logoimage {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 440em) {
+  .logoimage {
+    width: 50%;
   }
 }

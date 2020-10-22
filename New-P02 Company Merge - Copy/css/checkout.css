@@ -2,7 +2,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #FAF0E6;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 header {
@@ -14,8 +17,10 @@ header {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
+.wrapper {
+  background-color: #FAF0E6;
+  padding-top: 2em;
+  padding-bottom: 50em;
 }
 
 h1 {
@@ -150,15 +155,21 @@ label, input {
   margin: 1rem;
 }
 
-@media only screen and (max-width: 660em){
-  .logoimage{
-    width:80%;
+@media only screen and (min-width: 660px) {
+  header {
+    width: 40%;
+    margin: auto;
   }
 }
 
+@media only screen and (max-width: 660em) {
+  .logoimage {
+    width: 80%;
+  }
+}
 
-@media only screen and (max-width: 440em){
-  .logoimage{
-    width:50%;
+@media only screen and (max-width: 440em) {
+  .logoimage {
+    width: 50%;
   }
 }
