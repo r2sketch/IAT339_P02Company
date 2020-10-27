@@ -19,6 +19,7 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
 @media (min-width: 1000px) {
   .introduce>p {
     text-align: center;
@@ -39,6 +40,10 @@
 
 .introduce {
   margin-top: 30em !important;
+}
+
+h1 {
+  text-align: center;
 }
 
 .container {
