@@ -1,6 +1,15 @@
 .caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+}
+
+.parallax img, .parallax {
+  float: left;
+  width: 100%;
+  height: 60vh;
+  padding-top: 20px;
+  margin: 0;
+  object-fit: cover;
 }
 
 .container {
@@ -11,7 +20,7 @@
   padding: 8em;
 }
 
-#orangebg{
+#orangebg {
   background-color: #FAF0E6;
 }
 
@@ -35,7 +44,6 @@
   flex-grow: 1;
   padding: 2em;
 }
-
 
 .images {
   max-width: 80%;
@@ -75,7 +83,7 @@ div.desc {
     padding: 2em;
   }
 
-  .images{
+  .images {
     max-width: 100%;
   }
 
@@ -86,7 +94,6 @@ div.desc {
     flex-wrap: wrap;
     padding: 4em;
   }
-
 }
 
 @media (max-width: 700px) {
@@ -110,7 +117,7 @@ div.desc {
     width: 44%;
   }
 
-  div.desc{
+  div.desc {
     display: none;
   }
 }
