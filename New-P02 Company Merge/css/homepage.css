@@ -9,7 +9,18 @@
   height: 60vh;
   padding-top: 20px;
   margin: 0;
+  padding-bottom: 3em;
   object-fit: cover;
+}
+
+.introduce>p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.introduce {
+  margin-top: 30em !important;
 }
 
 .container {
