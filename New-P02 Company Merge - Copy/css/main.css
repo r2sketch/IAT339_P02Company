@@ -8,8 +8,9 @@ GlobL style
 }
 
 .bannerhead {
+  z-index: 1;
   overflow: hidden;
-  background-color: black;
+  background-color: #FAF0E6;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -146,10 +147,11 @@ code {
 
 /* header design */
 header {
-  margin-top: 0;
+  margin-top: 7em;
   background-color: white;
   color: white;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding: 30px 0;
   text-align: center;
 }
@@ -477,8 +479,12 @@ span.price {
 
 @media only screen and (min-width: 660px) {
   header {
-    width: 40%;
+    width: 60%;
+    padding-top: 7em;
+    background-color: white;
+    color: white;
     margin: auto;
+    text-align: center;
   }
 }
 
