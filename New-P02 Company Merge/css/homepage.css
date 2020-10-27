@@ -42,7 +42,13 @@
   margin-top: 30em !important;
 }
 
-h1 {
+.overall>h1 {
+  text-align: center;
+}
+
+.overall>h2 {
+  display: inline-block;
+  text-transform: uppercase;
   text-align: center;
 }
 
