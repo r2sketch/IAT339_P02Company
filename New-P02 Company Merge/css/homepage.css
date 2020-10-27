@@ -13,6 +13,12 @@
   object-fit: cover;
 }
 
+.introduce {
+  background-image: url('img/transbackground.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 @media (min-width: 1000px) {
   .introduce>p {
     text-align: center;
