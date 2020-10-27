@@ -13,10 +13,22 @@
   object-fit: cover;
 }
 
-.introduce>p {
-  text-align: center;
-  width: 60%;
-  margin: auto;
+@media (min-width: 1000px) {
+  .introduce>p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2.5em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introduce>p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+  }
 }
 
 .introduce {
