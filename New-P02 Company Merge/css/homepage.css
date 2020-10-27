@@ -46,10 +46,14 @@
   text-align: center;
 }
 
-.overall>h2 {
-  display: inline-block;
+.navlink>h2 {
   text-transform: uppercase;
   text-align: center;
+  display: inline-block;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 1.5em;
 }
 
 .container {
