@@ -38,7 +38,6 @@
   }
 }
 
-
 .overall>h1 {
   text-align: center;
 }
@@ -59,18 +58,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 8em;
-}
-
-#orangebg {
-  background-color: #FAF0E6;
-}
-
-#intro {
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 3%;
-  background-color: #FAF0E6;
-  text-align: center;
 }
 
 .block50 {
