@@ -51,12 +51,10 @@ html {
   transform-origin: 4px 0px;
   /* cubic-bezier from W3C */
   /* transition from W3C */
-
   /*
    transform-origin Property learn from W3C
    */
-   /*nth-last-child() Selector from w3c*/
-
+  /*nth-last-child() Selector from w3c*/
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     opacity 0.55s ease;
 }
@@ -126,9 +124,9 @@ html {
   font-family: 'Barlow Condensed', sans-serif;
   display: block;
   color: white;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 350;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1rem;
   line-height: 0.9em;
   animation: .3s;
   text-decoration: none;
@@ -156,5 +154,3 @@ sup {
   color: #333;
   line-height: .3em;
 }
-
-
