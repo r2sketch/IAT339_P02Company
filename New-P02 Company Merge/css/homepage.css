@@ -203,6 +203,10 @@ div.desc {
 
 @media (max-width: 700px) {
 
+  .navlink>h2{
+    font-size: 21px;
+  }
+
   .block50>h1{
     font-size: 35px;
     margin:auto;
@@ -265,6 +269,14 @@ div.desc {
 
 
 @media (max-width: 400px) {
+
+  .overall>h1{
+    font-size: 25px;
+  }
+
+  .navlink>h2{
+    font-size: 21px;
+  }
   .introduce>p{
     margin-top: 0em;
     text-align: center;
