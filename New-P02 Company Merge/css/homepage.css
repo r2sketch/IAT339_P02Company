@@ -40,6 +40,22 @@
   }
 
 
+  .block>h1{
+    font-size: 34px;
+    margin-top: 0em;
+    padding:0rem 0.5rem;
+
+  }
+
+  .block>h2{
+    font-size: 29px;
+    margin-bottom: 1em;
+    padding:0.2rem 0.5rem;
+
+  }
+
+
+
 
 
 @media (min-width: 1200px) {
