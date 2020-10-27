@@ -178,7 +178,7 @@ header {
 
 .fa:hover {
   color: #FFA07A;
-  transition: .7s;
+  transition: color .7s;
 }
 
 /* background design&color for different section */
