@@ -18,7 +18,7 @@ html {
 #menuToggle {
   display: block;
   position: fixed;
-  top: 50px;
+  top: 40px;
   left: 50px;
   z-index: 1;
 }
@@ -29,8 +29,8 @@ html {
   width: 50px;
   height: 50px;
   position: fixed;
-  top: 45px;
-  left: 45px;
+  top: 35px;
+  left: 35px;
   cursor: pointer;
   opacity: 0;
   z-index: 2;

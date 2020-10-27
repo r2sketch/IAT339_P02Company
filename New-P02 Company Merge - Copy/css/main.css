@@ -7,6 +7,18 @@ GlobL style
   box-sizing: border-box;
 }
 
+.bannerhead {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  height: 80px;
+}
+
 /* header image */
 .parallax img, .parallax {
   float: left;
@@ -29,7 +41,6 @@ GlobL style
   padding: 0;
   margin: 0;
 }
-
 
 a {
   color: #9e8242;
