@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Document checking completed by validator.w3.org  -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P01 - Style Guide for a wedding company</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Dancing+Script:wght@700&family=Didact+Gothic&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <!-- intro //  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/hamburger.css" rel="stylesheet">
+  <link href="css/shoppingcart.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- golbal // -->
+  <header>
+   <img src="img/logo.png" alt="logo" class="logoimage">
+
+
+    <div class="centerr">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+
+    </div>
+  </header>
+  <div class="fixcart">
+    <a href="cart.html" class="fa fa-shopping-cart"></a>
+  </div>
+
+  <!--hamburger nav css stylesheet saved indivicually, see hamburger/css  -->
+  <nav>
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+
+      <span class="inside"></span>
+      <span class="inside"></span>
+      <span class="inside"></span>
+
+      <ul id="menu" class="homenav">
+        <li><a href="index.html">About<sup>/01</sup></a></li>
+        <li><a href="#">Portfolio<sup>/02</sup></a></li>
+        <li><a href="services.html" >Services<sup>/03</sup></a></li>
+        <li><a href="contact.html" >Contact<sup>/04</sup></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navlink">
+    <a href="#interactive_elements">Interactive Elements</a>
+    <a href="#text_elements">Text Elements</a>
+    <a href="#combined_elements">Combined Elements</a>
+    <a href="#citations">Citations</a>
+  </nav>
+
+  <h1>Color Palettes</h1>
+  <div class="block">
+    <label class="DB7093">#DB7093</label>
+    <label class="FAF0E6">#FAF0E6</label>
+    <label class="FFC0CB">#FFC0CB</label>
+    <label class="FFA07A">#FFA07A</label>
+    <label class="FFD700">#FFD700</label>
+  </div>
+  <h1>Fonts Combination</h1>
+  <section class="row">
+    <div class="column">
+
+      <p class="belle">Bellefair</p>
+      <p class="barlow">Barlow Condensed</p>
+      <p class="roboto">Roboto</p>
+      <p class="didact">Didact Gothic</p>
+    </div>
+    <div class="column">
+      <h2>Overview</h2>
+      <h3>What does the company do, or offer?</h3>
+      <p>A team of professional photographers, professional make up artists based in who specialize in wedding, pre-wedding and engagement
+        photography. Our goal is to make your
+        special day as beautiful and memorable as it can be. A team of professional photographers, professional make up artists based in Vancouver BC Canada who specialize
+        in wedding, pre-wedding and engagement
+        photography. Our goal is to make your
+        special day as beautiful and memorable as it can be.
+      </p>
+
+      <!-- intro  -->
+
+      <h4>What does the company do, or offer?</h4>
+      <p>A team of professional photographers, professional make up artists based in <a class="location" href="https://www.tourismvancouver.com/" target="_blank">Vancouver BC Canada </a>who specialize in wedding, pre-wedding and engagement
+        photography. Our goal is to make your
+        special day as beautiful and memorable as it can be.
+      </p>
+
+      <h4>Who is the company to potential customers?</h4>
+      <p>All aged couples who are trying to plan a perfect wedding, or who just wants to take couple photos. Our price make sure most people find it affordable </p>
+
+      <h4>Why might this company entice someone to purchase a product or service</h4>
+      <p>Our price is reasonable, we offer great variety of service, an the order process is easy</p>
+
+
+    </div>
+  </section>
+  <h1>Imagary</h1>
+  <div class="row">
+    <div class="column">
+      <img alt="wedding mood board" src="img/mood.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img alt="wedding mood board" src="img/mood2.jpg" style="width:100%">
+    </div>
+  </div>
+  <!-- golbal // -->
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <h1>Interactive Elements</h1>
+  <section class="Interactive" id="interactive_elements">
+    <section class="element">
+      <h2>In-text link</h2>
+      <p>This is an example of an in-text link, click <a href="http://www.google.com">here</a> to go to Google. </p>
+      <!-- //kelly to add -->
+      <h3>CSS selector:</h3>
+      <p>a:hover</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;Text&lt;/a&gt;</code>
+
+
+
+      <!-- kelly's end -->
+    </section>
+
+
+    <!-- Default Button styling section -->
+    <section class="element">
+      <h2>Same Page Navigation Link</h2>
+
+
+      <nav class="navlink">
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+      <h3>CSS selector:</h3>
+      <p>.navlink</p>
+      <h3>Sample code:</h3>
+      <code>
+        &lt;nav class="navlink"&gt;
+        &lt;a href="#interactive_elements"&gt;Interactive Elements&lt;/a&gt;
+        &lt;a href="#text_elements"&gt;Text Elements&lt;/a&gt;
+        &lt;a href="#combined_elements"&gt;Combined Elements&lt;/a&gt;
+        &lt;a href="#citations"&gt;Citations&lt;/a&gt;
+        &lt;/nav&gt;
+      </code>
+
+
+
+    </section>
+
+    <section class="element">
+      <h2>Submit/Reset Buttons</h2>
+
+
+      <button>Submit</button>
+
+      <h3>CSS selector:</h3>
+      <p>button</p>
+      <h3>Sample code:</h3>
+
+      <code>&lt;button&gt;Submit&lt;/button&gt;</code>
+
+
+    </section>
+
+
+    <section class="element">
+      <h2>Text Input Field with Label</h2>
+
+      <form method="get" action="#">
+        <label class="input" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Your Name">
+        <label class="input" for="birthday">Birthday:</label>
+        <input id="birthday" type="date">
+        <label class="input" for="comment">Comment:</label>
+        <textarea id="comment" placeholder="Your comment here"></textarea>
+      </form>
+
+      <h3>CSS selector:</h3>
+      <p>.input</p>
+      <h3>Sample code:</h3>
+
+
+      <code>
+        &lt;form method="get" action="#"&gt;
+        &lt;label class="input" for="name"&gt;Name: &lt;/label&gt;
+        &lt;input id="name" type="text" placeholder="Your Name"&gt;
+        &lt;label class="input" for="birthday"&gt;Birthday: &lt;/label&gt;
+        &lt;input id="birthday" type="date" &gt;
+        &lt;label class="input" for="comment"&gt;Comment:&lt;/label&gt;
+        &lt;textarea id="comment" placeholder="Your comment here"&gt; &lt;/textarea&gt;
+        &lt;form&gt;
+      </code>
+
+
+      <!-- id method from Linkin Learning School -->
+      <!-- date method from Building Forms (Shay Howe) -->
+
+    </section>
+
+
+    <section class="element">
+      <h2>Radio Button with Label</h2>
+
+
+      <label class="radio_button">Package A: $400
+        <input type="radio" checked="checked" name="radio">
+        <span class="checkmark"></span>
+      </label>
+      <label class="radio_button">Package B: $450
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+      </label>
+      <label class="radio_button">Package C: $600
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+      </label>
+      <label class="radio_button">Package D: $900
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+      </label>
+
+      <h3>CSS selector:</h3>
+      <p>.radio_button</p>
+      <p>.radio_button input</p>
+      <p>.checkmark</p>
+      <h3>Sample code:</h3>
+
+
+      <code>
+        &lt;label class="radio_button"&gt;Package A: $400
+        &lt;input type="radio" checked="checked" name="radio"&gt;
+        &lt;span class="checkmark"&gt;&lt;/span&gt;
+        &lt;/label&gt;
+        &lt;label class="radio_button"&gt;Package B: $450
+        &lt;input type="radio" name="radio"&gt;
+        &lt;span class="checkmark"&gt;&lt;/span&gt;
+        &lt;/label&gt;
+        &lt;label class="radio_button"&gt;Package C: $600
+        &lt;input type="radio" name="radio"&gt;
+        &lt;span class="checkmark"&gt;&lt;/span&gt; &lt;/label&gt;
+        &lt;label class="radio_button"&gt;Package D: $900
+        &lt;input type="radio" name="radio"&gt;
+        &lt;span class="checkmark"&gt;&lt;/span&gt;
+        &lt;/label&gt;
+      </code>
+
+
+    </section>
+
+
+    <section class="element">
+      <h2>Image as a Link</h2>
+      <div class="prodcontainer"  id="block1">
+        <img src="img/weddingphoto6.jpg" alt="image" class="prodimage">
+        <div class="prodoverlay">
+          <div class="prodtext">
+
+            <a href="#">Discover more details.</a>
+          </div>
+        </div>
+      </div>
+
+      <h3>CSS selector:</h3>
+      <p>.prodcontainer</p>
+
+      <h3>Sample code:</h3>
+      <code>
+
+        &lt;div class="prodcontainer" style ="width:25%" id = "block1"&gt;
+        &lt;img src="img/weddingphoto6.jpg" alt="image" class="prodimage"&gt;
+        &lt;div class="prodoverlay"&gt;
+        &lt;div class="prodtext"&gt;
+
+        &lt;a href="#"&gt;Discover more details.&lt;/a&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        <!-- kelly's end // -->
+      </code>
+    </section>
+
+  </section>
+
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <h1>Text Elements</h1>
+  <section class="text_elements" id="text_elements">
+
+    <h2>Four levels of headings</h2>
+
+    <p class="belle">H1: TreWedding Company</p>
+    <p class="barlow">H2: Our mission</p>
+    <p class="roboto">H3: Book a time </p>
+    <p>H4: Contact us</p>
+
+    <h3>CSS selector:</h3>
+    <p>.belle .barlow .roboto</p>
+    <h3>Sample code:</h3>
+
+
+    <code>
+      &lt;h1&gt;H1: TreWedding Company&lt;/h1&gt;
+      &lt;h2&gt;H2: Our mission&lt;/h2&gt;
+      &lt;h3&gt;H3: Book a time &lt;/h3&gt;
+      &lt;h4&gt;H4: Contact us&lt;/h4&gt;
+    </code>
+
+
+    <h2>A paragraph</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+    <h3>CSS selector:</h3>
+    <p>p</p>
+    <h3>Sample code:</h3>
+
+    <code>
+      &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      &lt;/p&gt;
+    </code>
+
+    <h2>Numbered Lists</h2>
+
+    <ol>
+      <li>Single person</li>
+      <li>Couple</li>
+      <li>Group</li>
+      <li>Other</li>
+    </ol>
+
+    <h3>CSS selector:</h3>
+    <p>ol</p>
+    <h3>Sample code:</h3>
+
+
+    <code>
+      &lt;ol&gt;
+      &lt;li&gt;Single person&lt;/li&gt;
+      &lt;li&gt;Couple&lt;/li&gt;
+      &lt;li&gt;Group&lt;/li&gt;
+      &lt;li&gt;Other&lt;/li&gt;
+      &lt;/ol&gt;
+    </code>
+
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <h1>Combined Elements</h1>
+  <section class="combine" id="combined_elements">
+
+
+    <section class="element">
+
+      <!--  navlink -->
+
+      <h2>Navigation Link</h2>
+
+      <nav class="navlink">
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+      <h3>CSS selector:</h3>
+      <p>.navlink</p>
+      <h3>Sample code:</h3>
+
+
+      <code>
+        &lt;nav class="navlink"&gt;
+        &lt;a href="#interactive_elements"&gt;Interactive Elements&lt;/a&gt;
+        &lt;a href="#text_elements"&gt;Text Elements&lt;/a&gt;
+        &lt;a href="#combined_elements"&gt;Combined Elements&lt;/a&gt;
+        &lt;a href="#citations"&gt;Citations&lt;/a&gt;
+        &lt;/nav&gt;
+      </code>
+
+
+    </section>
+
+    <section class="element">
+      <h2>Product/Service Listing</h2>
+      <div class="prodcontainer" id="block2">
+        <img src="img/weddingphoto1.jpg" alt="image" class="prodimage">
+        <div class="prodoverlay">
+          <div class="prodtext">
+            <h2> Wedding Photography</h2>
+            <p>With our experienced photographers, no matter the location or lighting, we can assure you that we can confidently
+              capture the moment.
+
+              <a class="detail" href="#">Discover more details.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h3>CSS selector:</h3>
+      <p>.prodcontainer</p>
+
+      <h3>Sample code:</h3>
+      <code>
+
+
+        &lt;div class="prodcontainer" style="width:25%"&gt;
+        &lt;img src="img/weddingphoto6.jpg" alt="image" class="prodimage"&gt;
+        &lt;div class="prodoverlay"&gt;
+        &lt;div class="prodtext"&gt;
+        &lt;h2&gt; Wedding Makeup & Hair&lt;/h2&gt;
+        &lt;p&gt;We provide a professional full hair and makeup service team focused on making the most of your special day! Whether you’d prefer to come in our studio or have our mobile services we are here to make you shine!
+
+        &lt;a href="#"&gt;Discover more details.&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+
+      </code>
+
+    </section>
+
+    <section class="element">
+      <h2>Payment Form</h2>
+      <section id="checkout">
+
+
+        <div class="cContainer">
+
+          <div class="payContainer">
+            <div class="checkout1">
+              <h3>Billing Address</h3>
+
+              <label for="uname">First Name</label>
+              <input type="text" id="uname" name="Firstname" placeholder="Helena">
+
+              <label for="uname">Last Name</label>
+              <input type="text" id="lname" name="Lastname" placeholder="Wan">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Helena@example.com">
+              <label for="add">Address</label>
+              <input type="text" id="add" name="add" placeholder="13733.15th Street">
+
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="Burnaby">
+
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" placeholder="BC">
+
+              <label for="text">Zip Code</label>
+              <input type="text" id="text" name="zip" placeholder="V3J 0E5">
+            </div>
+
+            <div class="checkout2">
+              <h3>Payment</h3>
+              <p>Choose your Payment Method</p>
+
+              <label class="Rcontainer">Credit Card/Debit Card
+                <input type="radio">
+                <span class="click"></span>
+              </label>
+
+              <label class="Rcontainer">Paypal
+                <input type="radio">
+                <span class="click"></span>
+              </label>
+
+
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="Cardname" placeholder="Helena Wan">
+              <label for="cardnumber">Credit card number</label>
+              <input type="number" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="October">
+
+
+              <label for="expyear">Exp Year</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2021">
+
+
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="555">
+
+            </div>
+
+          </div>
+
+          <!-- Code learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form-->
+
+        </div>
+      </section>
+
+      <h3>CSS selector:</h3>
+      <p>.checkout1</p>
+      <p>.checkout2</p>
+      <h3>Sample code:</h3>
+
+      <code>
+        &lt;div class="cContainer"&gt;
+
+        &lt;div class="payContainer"&gt;
+        &lt;div class="checkout1"&gt;
+        &lt;h3&gt;Billing Address&lt;/h3&gt;
+
+        &lt;label for="uname"&gt;First Name&lt;/label&gt;
+        &lt;input type="text" id="uname" name="Firstname" placeholder="Helena"&gt;
+
+        &lt;label for="uname"&gt;Last Name&lt;/label&gt;
+        &lt;input type="text" id="lname" name="Lastname" placeholder="Wan"&gt;
+        &lt;label for="email"&gt;Email&lt;/label&gt;
+        &lt;input type="text" id="email" name="email" placeholder="Helena@example.com"&gt;
+        &lt;label for="add"&gt;Address&lt;/label&gt;
+        &lt;input type="text" id="add" name="add" placeholder="13733.15th Street"&gt;
+
+
+        &lt;label for="city"&gt;City&lt;/label&gt;
+        &lt;input type="text" id="city" name="city" placeholder="Burnaby"&gt;
+
+
+        &lt;label for="state"&gt;State&lt;/label&gt;
+        &lt;input type="text" id="state" name="state" placeholder="BC"&gt;
+
+        &lt;label for="text"&gt;Zip Code&lt;/label&gt;
+        &lt;input type="text" id="text" name="zip" placeholder="V3J 0E5"&gt;
+
+        &lt;/div&gt;
+
+
+        &lt;div class="checkout2"&gt;
+        &lt;h3&gt;Payment&lt;/h3&gt;
+        &lt;p&gt;Choose your Payment Method&lt;/p&gt;
+
+        &lt;label class="Rcontainer"&gt;Credit Card/Debit Card
+        &lt;input type="radio"&gt;
+        &lt;span class="click"&gt;&lt;/span&gt;
+        &lt;/label&gt;
+
+        &lt;label class="Rcontainer"&gt;Paypal
+        &lt;input type="radio"&gt;
+        &lt;span class="click"&gt;&lt;/span&gt;
+        &lt;/label&gt;
+
+
+        &lt;label for="cname"&gt;Name on Card&lt;/label&gt;
+        &lt;input type="text" id="cname" name="Cardname" placeholder="Helena Wan"&gt;
+        &lt;label for="cardnumber"&gt;Credit card number&lt;/label&gt;
+        &lt;input type="number" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444"&gt;
+        &lt;label for="expmonth"&gt;Exp Month&lt;/label&gt;
+        &lt;input type="text" id="expmonth" name="expmonth" placeholder="October"&gt;
+
+
+        &lt;label for="expyear"&gt;Exp Year&lt;/label&gt;
+        &lt;input type="text" id="expyear" name="expyear" placeholder="2021"&gt;
+
+
+        &lt;label for="cvv"&gt;CVV&lt;/label&gt;
+        &lt;input type="text" id="cvv" name="cvv" placeholder="555"&gt;
+
+
+
+        &lt;/div&gt;
+
+        &lt;/div&gt;
+
+
+        &lt;/div&gt;
+      </code>
+
+
+    </section>
+
+    <section class="element">
+      <!-- table method from W3C -->
+      <h2>Checkout Cart</h2>
+      <!-- Helena // -->
+      <div class="checkout3">
+        <h3>Cart</h3>
+
+        <p>Wedding Plan 1 <span class="price">$600</span></p>
+        <p>Photograph <span class="price">$200</span></p>
+        <p>Makeup <span class="price">$150</span></p>
+        <p>Wedding Decoration <span class="price">$500</span></p>
+        <hr>
+        <p> Total:$1450
+        </p> <button class="pay">Pay</button>
+
+      </div>
+
+      <h3>CSS selector:</h3>
+      <p>.checkout3</p>
+      <h3>Sample code:</h3>
+
+      <code>
+        &lt;div class="checkout3"&gt;
+        &lt;h3&gt;Cart&lt;/h3&gt;
+
+        &lt;p&gt;Wedding Plan 1 &lt;span class="price"&gt;$600&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;Photograph &lt;span class="price"&gt;$200&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;Makeup &lt;span class="price"&gt;$150&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;Wedding Decoration &lt;span class="price"&gt;$500&lt;/span&gt;&lt;/p&gt;
+        &lt;hr&gt;
+        &lt;p&gt; Total:$1450
+        &lt;/p&gt; &lt;button class="pay"&gt;Pay&lt;/button&gt;
+
+        &lt;/div&gt;
+
+      </code>
+
+    </section>
+  </section>
+
+  <!-- // COMBINED ELEMENTS SECTION -->
+  <section id="citations">
+    <h2>Citations</h2>
+
+    <ol>
+      <li>Color code <a target="_blank" href="https://colours.neilorangepeel.com">https://colours.neilorangepeel.com </a></li>
+      <li>W3C Coding School<a target="_blank" href="https://www.w3schools.com/">Here</a> </li>
+      <li>Hamburger menu component: cubic-bezier,transition,
+        transform-origin Property, nth-last-child() Selector,
+        cubic-bezier from W3C</li>
+
+
+      <li>Image used in this project <a href="https://unsplash.com/s/photos/wedding" target="_blank">Unsplash</a></li>
+      <li>Icon used in this project <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank">Font Awesome</a>
+      </li>
+      <li>Document checking completed by<a target="_blank" href="https://validator.w3.org/"> https://validator.w3.org/</a>
+      </li>
+    </ol>
+
+  </section>
+
+</body>
+
+</html>

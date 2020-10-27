@@ -1,0 +1,136 @@
+.parallax img, .parallax {
+  float: left;
+  width: 100%;
+  height: 30vh;
+  padding-top: 20px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.centered {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(0%, -50%);
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+}
+
+.prodcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.prodimage {
+  display: block;
+}
+
+.prodoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f0d1c7;
+}
+
+.prodcontainer:hover .prodoverlay {
+  opacity: .99;
+  cursor: pointer;
+}
+
+.prodcontainer h2 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  color: #c29d59;
+}
+
+.prodtext {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.detail {
+  display: block;
+  padding-top: 1em;
+}
+
+p, h2 {
+  margin: 0;
+  padding: .5em;
+}
+
+/* gallery layout */
+/* retrieved from https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8em;
+}
+
+.background {
+  background-color: #FAF0E6;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* three equal columns */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 2em;
+}
+
+.column img {
+  margin-top: 2em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* media query, changes the layout to 2 columns instead of three */
+@media (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+    padding-top: 0;
+  }
+}
+
+/* media query, one column */
+@media (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
