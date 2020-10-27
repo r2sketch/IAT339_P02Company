@@ -1,0 +1,129 @@
+<!--Hi Helenaaaaaa -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Document checking completed by validator.w3.org  -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Love&Cofetti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Dancing+Script:wght@700&family=Didact+Gothic&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <!-- icon from fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/hamburger.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/shoppingcart.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+<img src="img/logo.png" alt="logo" class="logoimage" >
+
+
+    <div class="centerr">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+
+
+  </header>
+
+  <div class="bannerhead">
+    <div class="fixcart">
+      <a href="cart.html" class="fa fa-shopping-cart"></a>
+    </div>
+
+    <!--hamburger nav css stylesheet saved indivicually, see hamburger/css  -->
+    <nav>
+      <div id="menuToggle">
+
+        <input type="checkbox" />
+
+        <span class="inside"></span>
+        <span class="inside"></span>
+        <span class="inside"></span>
+
+        <ul id="menu" class="homenav">
+          <li><a href="homepage.html">Home<sup>/01</sup></a></li>
+          <li><a href="index.html">Stylesheet<sup>/02</sup></a></li>
+          <li><a href="services.html">Services<sup>/03</sup></a></li>
+          <li><a href="contact.html">Contact<sup>/04</sup></a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="parallax">
+    <img src="img/services_banner.jpg" alt="banner">
+    <div class="centered">CONTACT US</div>
+  </div>
+
+  <!-- object fit for the Image https://www.w3schools.com/css/css3_object-fit.asp -->
+  <div class="row">
+    <div class="column">
+
+      <ul class="contacttext">
+        <li class="contact1">Shoot us a message and tell us a little about yourself! We will send you some more information regarding our packages. </li>
+        <li class="contact1">Then we will setup a coffee or wine meeting! This is our favourite part. Together we will fill out a little questionnaire to get more details about your big day and what you are looking for in a wedding
+          planner/coordinator. </li>
+        <li class="contact1">After our coffee date we will send you a personal proposal. If you decide we are a match (awesome!) we will send over a contract and start planning your epic day! </li>
+
+      </ul>
+
+      <!--text retireved from https://morganandvine.com/contact-->
+
+      <p class="contactmessage">778-798-2337 | love@confetti.com</p>
+      <img src="img/Wedding1.jpg" class="contactimg" alt="a wedding photography photo">
+    </div>
+
+    <div class="column">
+      <label for="uname">Your Name*</label>
+      <input type="text" id="uname" name="Yourname" placeholder="Please provide your first name and last name">
+
+      <label for="pname">Partner's Name*</label>
+      <input type="text" id="pname" name="Lastname" placeholder="Please provide your first name and last name">
+
+      <label for="email">Email*</label>
+      <input type="text" id="email" name="email" placeholder="Please provide your email">
+
+      <label for="phone">Phone*</label>
+      <input type="text" id="phone" name="add" placeholder="Please provide your phone">
+
+      <label for="text">What service are you interested in?*</label>
+
+      <select id="text" name="text">
+        <option value="Review">Leave a Review</option>
+        <option value="Makeup">Makeup and Hair Style</option>
+        <option value="Photograph">Engagement Photography</option>
+        <option value="Planning">Wedding Planning</option>
+        <option value="Wedding">Wedding Photography</option>
+      </select>
+
+
+
+
+      <label for="subject">Please put your request/comment below</label>
+      <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+      <button type="submit" class="contactsubmit" value="Submit">Submit</button>
+
+      <!--code learned from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>

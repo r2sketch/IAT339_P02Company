@@ -1,0 +1,74 @@
+
+.row {
+  background-color: #FAF0E6;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.contactimg {
+  padding: 2em;
+  width: 100%;
+  flex-grow: 1;
+}
+
+button {
+  float: right;
+}
+
+label {
+  font-family: 'Roboto';
+}
+
+/*css for input learned from
+https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+input[type=text], select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+input:hover {
+  background-color: #FFC0CB;
+  transition: .3s;
+}
+
+.contactsubmit {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.contactmessage {
+  text-align: center;
+}
+
+.contact1 {
+  margin-bottom: 2em;
+  font-family: 'Roboto';
+}
+
+
+@media only screen and (max-width: 2000em){
+  .logoimage{
+    width:80%;
+  }
+}
+
+@media only screen and (max-width: 660em){
+  .logoimage{
+    width:60%;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 440em){
+  .logoimage{
+    width:50%;
+  }
+
+
+}
