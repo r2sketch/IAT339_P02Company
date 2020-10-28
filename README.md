@@ -2,7 +2,8 @@
 
 By Kelly Helena and Zoe
 ABOUT---Homepage(about&update event)
-SERVICES--Services(inliude a link to one detail service)
-PORTFOLIO--empty for now
+SERVICES--Services(inliude a link to two detail service)
+STYLESHEET--\
 CONTACT US--feedback and contact
+Invisiable page--CHECKOUT & SHOPPING CART
 
