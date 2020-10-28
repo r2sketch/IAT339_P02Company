@@ -206,15 +206,15 @@ h2, p {
     padding-bottom: 55px;
   }
 
-  .ser1_column2, .ser2_column2, .ser3_column2 {
-    padding: 15px;
+  .ser1_column2, .ser2_column1, .ser3_column2 {
+    padding: 1em;
   }
 
-  .ser1_column1, .ser2_column1, .ser3_column1 {
+  .ser1_column1, .ser2_column2, .ser3_column1 {
     display: none;
   }
 
-  .ser1_column1 img, .ser2_column1 img, .ser3_column1 img {
+  .ser1_column1 img, .ser2_column2 img, .ser3_column1 img {
     display: none;
   }
 
