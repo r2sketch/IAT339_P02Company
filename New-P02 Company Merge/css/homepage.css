@@ -25,15 +25,15 @@
 }
 
 .jane>h1 {
-  font-size: 34px;
-  margin-top: 0em;
-  padding: 0rem 0.5rem;
+  font-size: 2em;
+  margin-top: 0;
+  padding: 0;
 }
 
 .jane>h2 {
-  font-size: 29px;
-  margin-top: 0em;
-  padding: 0.2rem 0.5rem;
+  font-size: 2em;
+  margin-top: 0;
+  padding: 0;
 }
 
 .block>h1 {
@@ -89,7 +89,6 @@
 }
 
 .jane {
-  transform: translate(5%, 0%);
   width: 50%;
   flex-grow: 1;
   padding: 2em;
@@ -123,27 +122,29 @@ div.desc {
 }
 
 @media (max-width: 1200px) {
-  .jane>h1 {
-    font-size: 40px;
-    margin: auto;
-    padding: 1rem 0.7rem;
-  }
 
-  .jane>h2 {
-    font-size: 30px;
-    margin: auto;
-    padding: 0.2rem 0.7rem;
-  }
+    .jane>h1 {
+      font-size: 2em;
+      margin: auto;
+      padding: 1rem 0.7rem;
+    }
 
-  .jane>p {
-    padding: 1rem 0.7rem;
-    width: 100%;
-  }
+    .jane>h2 {
+      font-size: 2em;
+      margin: auto;
+      padding: 0.5rem 0.7rem;
+    }
 
-  .jane>img {
-    margin-top: 0;
-    padding: 0em 0.7rem;
-  }
+    .jane>p {
+      padding: 0.7rem;
+      width: 100%;
+    }
+
+    .jane>img {
+      margin-top: 0;
+      padding: 0;
+    }
+
 
   .block>h1 {
     font-size: 40px;
@@ -188,25 +189,25 @@ div.desc {
   }
 
   .jane>h1 {
-    font-size: 35px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
   }
 
   .jane>h2 {
-    font-size: 27px;
+    font-size: 2em;
     margin: auto;
     padding: 0.5rem 0.7rem;
   }
 
   .jane>p {
-    padding: 1rem 0.7rem;
+    padding: 0.7rem;
     width: 100%;
   }
 
   .jane>img {
     margin-top: 0;
-    padding: 0rem 0.7rem;
+    padding: 0;
   }
 
   .block>h1 {
