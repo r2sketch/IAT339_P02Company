@@ -19,6 +19,11 @@
   margin-top: 5em;
 }
 
+.row {
+  margin: 0;
+  padding-top: 2em;
+}
+
 .jane>h1 {
   font-size: 34px;
   margin-top: 0em;
@@ -156,10 +161,6 @@ div.desc {
     flex: 33%;
     max-width: 33%;
     padding: 0.5em;
-  }
-
-  #intro {
-    padding-bottom: 5%
   }
 
   .jane {
