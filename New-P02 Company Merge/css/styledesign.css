@@ -35,7 +35,6 @@ h2, p {
   margin: auto;
 }
 
-
 .row1, .row3 {
   box-sizing: border-box;
   display: flex;
@@ -58,9 +57,14 @@ h2, p {
   flex: 1;
 }
 
-.ser1_column2, .ser2_column1, .ser3_column2 {
+.ser1_column2, .ser3_column2 {
   flex: 1.5;
   padding-left: 50px;
+}
+
+.ser2_column1 {
+  flex: 1.5;
+  padding-right: 50px;
 }
 
 .ser1_column1 img, .ser2_column2 img, .ser3_column1 img {
