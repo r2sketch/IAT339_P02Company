@@ -174,14 +174,6 @@ div.desc {
   .images {
     max-width: 100%;
   }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 4em;
-  }
 }
 
 @media (max-width: 700px) {
@@ -212,13 +204,13 @@ div.desc {
   }
 
   .block>h1 {
-    font-size: 35px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
   }
 
   .block>h2 {
-    font-size: 27px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
   }
@@ -230,11 +222,9 @@ div.desc {
   }
 
   .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding: 2em;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 
   div.gallery {
@@ -270,13 +260,13 @@ div.desc {
   }
 
   .jane>h1 {
-    font-size: 30px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
   }
 
   .jane>h2 {
-    font-size: 23px;
+    font-size: 2em;
     margin: auto;
     padding: 0.5rem 0.7rem;
   }
@@ -292,23 +282,15 @@ div.desc {
   }
 
   .block>h1 {
-    font-size: 30px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
   }
 
   .block>h2 {
-    font-size: 23px;
+    font-size: 2em;
     margin: auto;
     padding: 1rem 0.7rem;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 2em;
   }
 
   div.gallery {
