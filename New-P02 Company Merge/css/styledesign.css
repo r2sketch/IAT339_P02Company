@@ -73,14 +73,6 @@ h2, p {
   object-fit: cover;
 }
 
-.add {
-  float: right;
-  padding: 5px 10px;
-  margin: 15px;
-  margin-bottom: 25px;
-  border-radius: 5px;
-  font-size: 1rem;
-}
 
 @media only screen and (max-width:950px) {
   .parallax img, .parallax {
@@ -88,14 +80,6 @@ h2, p {
     margin-bottom: 0px;
   }
 
-  .navlink a {
-    color: pink;
-    text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    text-decoration: none;
-    font-size: 17px;
-  }
 
   .row1 {
     margin-top: 0;
