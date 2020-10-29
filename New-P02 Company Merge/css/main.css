@@ -7,6 +7,11 @@ GlobL style
   box-sizing: border-box;
 }
 
+footer{
+  text-align: center;
+  padding-bottom: 2em;
+}
+
 .bannerhead {
   z-index: 1;
   overflow: hidden;
