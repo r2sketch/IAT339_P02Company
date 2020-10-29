@@ -430,28 +430,23 @@ span.price {
   margin-top: 0;
 }
 
-.prodimage {
-  width: 50%;
-}
-
 .prodcontainer {
   position: relative;
   width: 100%;
 }
 
 .prodimage {
-  display: inline-block;
+  display: block;
 }
 
 .prodoverlay {
-  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #f0d1c7;
@@ -465,6 +460,17 @@ span.price {
 .prodcontainer h2 {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: #c29d59;
+}
+
+.prodtext {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .prodtext {
