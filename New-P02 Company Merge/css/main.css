@@ -20,29 +20,6 @@ GlobL style
   height: 80px;
 }
 
-/* header image */
-.parallax img, .parallax {
-  float: left;
-  width: 100%;
-  height: 30vh;
-  padding-top: 20px;
-  margin: 0;
-  object-fit: cover;
-}
-
-.centered {
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(0%, -50%);
-  font-family: 'Bellefair', serif;
-  color: white;
-  font-size: 3rem;
-  font-weight: lighter;
-  padding: 0;
-  margin: 0;
-}
-
 a {
   color: #9e8242;
   text-decoration: none;
@@ -439,12 +416,13 @@ span.price {
 }
 
 .prodoverlay {
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 50%;
   width: 50%;
   opacity: 0;
   transition: .5s ease;
