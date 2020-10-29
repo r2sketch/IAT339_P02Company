@@ -8,6 +8,10 @@
   object-fit: cover;
 }
 
+#orange {
+  background-color: #FAF0E6;
+}
+
 .introduce {
   background-image: url('https://loveandconfetti.ca/wp-content/uploads/2019/07/watercolour-bg.png');
   background-repeat: no-repeat;
@@ -16,7 +20,9 @@
 }
 
 .overall {
-  margin-top: 5em;
+  padding-top: 0.5em;
+  position: relative;
+  top: 3em;
 }
 
 .row {
