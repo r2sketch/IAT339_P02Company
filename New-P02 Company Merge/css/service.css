@@ -1,6 +1,17 @@
 .detail {
-  display: block;
-  padding-top: 1em;
+  background-color: transparent;
+  border: 2px solid #FFA07A;
+  padding: 2px 5px;
+  margin: 1em;
+  border-radius: .5em;
+  font-size: 1em;
+}
+
+.detail:hover {
+  cursor: pointer;
+  background-color: #FFA07A;
+  transition-duration: .3s;
+  color: white;
 }
 
 p, h2 {
