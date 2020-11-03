@@ -75,3 +75,8 @@ a {
   color: #DB7093;
   font-weight: bold;
 }
+
+a:hover {
+  color: black;
+  transition: color .5s;
+}
