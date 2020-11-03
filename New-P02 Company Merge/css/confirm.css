@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  background: #f2f2f2;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.crReciept {
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #f2f2f2;
+  margin-bottom: 2em;
+}
+
+.crReciept h2 {
+  color: #2E8B57;
+}
+
+.crReciept h3 span {
+  color: #2E8B57;
+}
+
+.crTitle {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.crItem {
+  margin: 0 20px;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  display: block;
+  clear: both;
+}
+
+.crItem p:first-child {
+  float: left;
+  max-width: 70%;
+  text-align: left;
+}
+
+.crAmount {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 10px;
+  float: right;
+  margin: 22px 0;
+}
+
+sup {
+  font-size: .5em;
+}
+
+.paymentInfo {
+  text-align: left;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #DB7093;
+  font-weight: bold;
+}

@@ -142,6 +142,8 @@ form {
 
 .pay {
   float: right;
+  text-decoration: none;
+  color: black;
 }
 
 .edit {
