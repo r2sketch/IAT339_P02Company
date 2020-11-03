@@ -21,6 +21,7 @@ header {
   background-color: #FAF0E6;
   padding-top: 2em;
   padding-bottom: 50em;
+  margin: 0;
 }
 
 h1 {
@@ -168,6 +169,19 @@ input[type=text], select, textarea {
 input:hover {
   background-color: #FFC0CB;
   transition: .3s;
+}
+
+@media screen and (max-width: 533px) {
+  .customer-order, .customer-pay, .customer-info {
+    padding: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-bottom: 4em;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px pink;
+  }
 }
 
 @media only screen and (min-width: 660px) {
