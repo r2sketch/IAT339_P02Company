@@ -9,7 +9,17 @@ GlobL style
 
 footer{
   text-align: center;
-  padding-bottom: 2em;
+  padding:1em 0em;
+
+}
+
+footer>p{
+  margin:0;
+}
+
+footer p a{
+  margin:0;
+  padding:0;
 }
 
 .bannerhead {
