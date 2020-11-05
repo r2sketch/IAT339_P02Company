@@ -22,10 +22,6 @@ p, h2 {
   padding: .5em;
 }
 
-p {
-  font-size: 1.1em;
-}
-
 /* gallery layout */
 /* retrieved from https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 .row {
