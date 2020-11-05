@@ -25,7 +25,7 @@ footer p a{
 .bannerhead {
   z-index: 1;
   overflow: hidden;
-  background-color: #FAF0E6;
+  background-color: #fff7f0;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -85,22 +85,22 @@ body {
   background-color: #DB7093;
 }
 
-.FAF0E6 {
+.fff7f0 {
   padding: 20px;
   display: block;
-  background-color: #FAF0E6;
+  background-color: #fff7f0;
 }
 
-.FFC0CB {
+.f5a9a9 {
   padding: 20px;
   display: block;
-  background-color: #FFC0CB;
+  background-color: #f5a9a9;
 }
 
-.FFA07A {
+.e3ae7f {
   padding: 20px;
   display: block;
-  background-color: #FFA07A;
+  background-color: #e3ae7f;
 }
 
 .FFD700 {
@@ -199,7 +199,7 @@ header {
 /* background design&color for different section */
 .Interactive {
   padding: 2rem;
-  background-color: #FAF0E6;
+  background-color: #fff7f0;
 }
 
 .text_elements {
@@ -209,7 +209,7 @@ header {
 
 .combine {
   padding: 2rem;
-  background-color: #FAF0E6;
+  background-color: #fff7f0;
 }
 
 #citations {
@@ -238,13 +238,14 @@ h1 {
 h2 {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: lighter;
-  color: #FFC0CB;
+  color: #f5a9a9;
   font-size: 2rem;
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
-  color: #FFA07A;
+  font-weight: lighter;
+  color: #e3ae7f;
 }
 
 h4 {
