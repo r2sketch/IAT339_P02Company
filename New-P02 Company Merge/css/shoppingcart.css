@@ -10,13 +10,13 @@
 }
 
 .fa-shopping-cart {
-  color: #FFA07A;
+  color: #E3AE7F;
   font-size: 40px;
   width: 90px;
   height: 90px;
 }
 
 .fa-shopping-cart:hover {
-  color: pink;
+  color: #F5A9A9;
   transition: .5s;
 }

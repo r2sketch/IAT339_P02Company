@@ -45,7 +45,7 @@ html {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #FFA07A;
+  background: #E3AE7F;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -100,7 +100,7 @@ html {
   min-width: 100vw;
   flex-basis: 100%;
   align-content: space-between;
-  background-color: rgb(209, 169, 148);
+  background-color: #E3AE7F;
   padding: 1rem;
   margin: -100px 0 0 -50px;
   padding-top: 125px;

@@ -56,12 +56,12 @@ footer p a{
 }
 
 a {
-  color: #9e8242;
+  color: #c79365;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4a4a4a;
+  color: #000;
   cursor: pointer;
 }
 
@@ -293,18 +293,19 @@ ol {
 /* submit/reset button */
 button {
   background-color: transparent;
-  border: 2px solid #FFA07A;
-  padding: 5px 20px;
-  margin-top: 1rem;
-  border-radius: 5px;
-  font-size: 1rem;
+  border: 2px solid #E3AE7F;
+  padding: 2px 5px;
+  margin: 1em;
+  border-radius: .5em;
+  font-size: 1em;
 }
 
 button:hover {
-  background-color: #FFA07A;
+  cursor: pointer;
+  border: 2px solid #E3AE7F;
+  background-color: #E3AE7F;
   transition-duration: .3s;
   color: white;
-  cursor: pointer;
 }
 
 /* Styling for input text field*/

@@ -30,7 +30,7 @@ input[type=text], select, textarea {
 }
 
 input:hover {
-  background-color: #FFC0CB;
+  background-color: #ffdcd6;
   transition: .3s;
 }
 

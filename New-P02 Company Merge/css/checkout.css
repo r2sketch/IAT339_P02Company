@@ -1,12 +1,4 @@
 /* Document checking completed by validator.w3.org  */
-body {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 header {
   margin-top: 0;
@@ -25,9 +17,7 @@ header {
 }
 
 h1 {
-  color: #FFC0CB;
-  font-family: 'Dancing Script', cursive;
-  font-size: 40px;
+  color: #F5A9A9;
   padding-left: 4rem;
 }
 
@@ -47,7 +37,7 @@ p {
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 1rem;
-  box-shadow: 2px 2px 10px pink;
+  box-shadow: 2px 2px 10px #ffdcd6;
 }
 
 .customer-info {
@@ -120,7 +110,8 @@ form {
 
 .pay, .back, .edit {
   background-color: transparent;
-  border: 2px solid #FFA07A;
+  border: 2px solid #ffdcd6;
+  background-color: #ffdcd6;
   padding: 5px 20px;
   margin-top: 1rem;
   border-radius: 5px;
@@ -129,7 +120,8 @@ form {
 
 .pay:hover, .back:hover, .edit:hover {
   cursor: pointer;
-  background-color: #FFA07A;
+  border: 2px solid #E3AE7F;
+  background-color: #E3AE7F;
   transition-duration: .3s;
   color: white;
 }
@@ -167,7 +159,7 @@ input[type=text], select, textarea {
 }
 
 input:hover {
-  background-color: #FFC0CB;
+  background-color: #ffdcd6;
   transition: .3s;
 }
 
