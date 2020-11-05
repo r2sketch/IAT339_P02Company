@@ -10,7 +10,7 @@
   height: 423px;
   margin: 80px auto;
   background: #FFFFFF;
-  box-shadow: 4px 4px 4px 4px #ffdcd6;
+  /* box-shadow: 4px 4px 4px 4px #ffdcd6; */
   border-radius: 6px;
   display: flex;
   flex-direction: column;
