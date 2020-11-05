@@ -180,8 +180,12 @@
     <section class="element">
       <h2>Submit/Reset Buttons</h2>
 
-
-      <button>Submit</button>
+      <button type="button" name="button">
+        Submit
+      </button>
+      <button type="button" name="button">
+        Reset
+      </button>
 
       <h3>CSS selector:</h3>
       <p>button</p>
@@ -196,14 +200,20 @@
     <section class="element">
       <h2>Text Input Field with Label</h2>
 
-      <form method="get" action="#">
-        <label class="input" for="name">Name:</label>
-        <input id="name" type="text" placeholder="Your Name">
-        <label class="input" for="birthday">Birthday:</label>
-        <input id="birthday" type="date">
-        <label class="input" for="comment">Comment:</label>
-        <textarea id="comment" placeholder="Your comment here"></textarea>
-      </form>
+      <div class="form-group">
+        <label for="NameOnCard">Name on card</label>
+        <input id="NameOnCard" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="CreditCardNumber">Card number</label>
+        <input id="CreditCardNumber" class="null card-image form-control" type="text">
+      </div>
+      <div class=" form-group">
+        <label for="ExpiryDate">Expiry date</label>
+        <input id="ExpiryDate" class="form-control" type="date">
+      </div>
+
+
 
       <h3>CSS selector:</h3>
       <p>.input</p>
@@ -320,23 +330,21 @@
   <h1>Text Elements</h1>
   <section class="text_elements" id="text_elements">
 
-    <h2>Four levels of headings</h2>
-
-    <p class="belle">H1: TreWedding Company</p>
-    <p class="barlow">H2: Our mission</p>
-    <p class="roboto">H3: Book a time </p>
-    <p>H4: Contact us</p>
-
+    <h1>H1: Four levels of headings</h1>
+    <h2>H2: Our mission</h2>
+    <h3>H3: Book a time </h3>
+    <h4>H4: Contact us</h4>
+    <br>
     <h3>CSS selector:</h3>
-    <p>.belle .barlow .roboto</p>
+    <p>h1, h2, h3, h4</p>
     <h3>Sample code:</h3>
 
 
     <code>
-      &lt;h1&gt;H1: TreWedding Company&lt;/h1&gt;
-      &lt;h2&gt;H2: Our mission&lt;/h2&gt;
-      &lt;h3&gt;H3: Book a time &lt;/h3&gt;
-      &lt;h4&gt;H4: Contact us&lt;/h4&gt;
+      &lt;h1>H1: Four levels of headings&lt;/h1>
+      &lt;h2>H2: Our mission&lt;/h2>
+      &lt;h3>H3: Book a time &lt;/h3>
+      &lt;h4>H4: Contact us&lt;/h4>
     </code>
 
 
